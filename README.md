@@ -56,6 +56,19 @@ Ver que haria el comando sin escribir archivos:
 npx gq-skills add packs/backend --repo tu-org/gq-skills --dry-run
 ```
 
+Antes de descargar, el CLI informa cuantos skills y archivos encontro. Durante
+la descarga muestra una barra de progreso con el archivo relativo que esta
+bajando:
+
+```text
+Buscando packs/backend en tu-org/gq-skills@main...
+Encontrados 2 skills en 4 archivos.
+Descargando [############------------] 2/4 node/SKILL.md
+```
+
+Si la carpeta remota no existe, o la ruta indicada no es una carpeta, el comando
+termina con error sin escribir archivos.
+
 ## Que instala
 
 El comando crea o actualiza esta estructura en el proyecto destino:
@@ -126,12 +139,42 @@ GQ_SKILLS_REPO=tu-org/gq-skills
 GQ_SKILLS_REF=main
 GQ_SKILLS_AGENTS_DIR=.agents
 GQ_SKILLS_CLOUDE_DIR=.cloude
+GQ_SKILLS_GITHUB_CLIENT_ID=<oauth-app-client-id>
+GQ_SKILLS_GITHUB_SCOPE=repo
 GITHUB_TOKEN=<token>
 GH_TOKEN=<token>
 ```
 
 Para repos privados o limites de rate limit de GitHub, exporta `GITHUB_TOKEN`
-o `GH_TOKEN`.
+o `GH_TOKEN`, o inicia sesion con GitHub desde el CLI.
+
+### Autorizar acceso a repos privados
+
+`gq-skills login` usa GitHub Device Flow: abre el navegador, muestra un codigo
+de autorizacion y guarda el token en la configuracion local del usuario. Luego
+`gq-skills add` usa ese token automaticamente si no hay `GITHUB_TOKEN` ni
+`GH_TOKEN`.
+
+GitHub requiere un Client ID de una OAuth App con Device Flow habilitado. Una
+vez creada la app, puedes pasarlo por variable de entorno:
+
+```bash
+GQ_SKILLS_GITHUB_CLIENT_ID=<oauth-app-client-id>
+gq-skills login
+```
+
+O directamente por argumento:
+
+```bash
+gq-skills login --client-id <oauth-app-client-id>
+```
+
+El permiso default es `repo`, necesario para leer contenido de repos privados.
+Puedes cambiarlo con `--scope` si tu organizacion usa otra politica:
+
+```bash
+gq-skills login --client-id <oauth-app-client-id> --scope repo
+```
 
 ## Instalar el CLI
 
