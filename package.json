@@ -1,0 +1,33 @@
+{
+  "name": "gq-skills",
+  "version": "0.1.0",
+  "description": "CLI para instalar skills propios desde carpetas de GitHub en .agents.",
+  "type": "module",
+  "packageManager": "pnpm@11.1.2",
+  "bin": {
+    "gq-skills": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepack": "tsc -p tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gq-skills/gq-skills.git"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.5.4",
+    "vitest": "^1.6.0"
+  }
+}
