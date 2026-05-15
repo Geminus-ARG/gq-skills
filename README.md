@@ -132,7 +132,8 @@ Descargando [############------------] 2/4 node/SKILL.md
 Si encuentra varias carpetas de skills dentro de la ruta remota, abre un
 selector interactivo en la terminal con todas marcadas por defecto. Puedes usar
 flechas arriba y abajo para moverte, espacio para seleccionar o deseleccionar,
-enter para confirmar y escape para abortar el proceso. En entornos no
+enter para confirmar y escape para abortar el proceso. Al confirmar o cancelar,
+el CLI devuelve el control de la terminal antes de salir. En entornos no
 interactivos, descarga todas las carpetas encontradas.
 
 Si la carpeta remota no existe, o la ruta indicada no es una carpeta, el comando
@@ -214,6 +215,18 @@ gq-skills manifest [folder] [opciones]
 que contienen skills y escribe un `gq-skills.json` con todos los archivos que
 se necesitan para mostrar o descargar ese contenido sin consultar
 recursivamente la GitHub Contents API. Si no se pasa carpeta, usa `skills/`.
+
+Flujo recomendado para mantener esos manifiestos actualizados:
+
+```bash
+gq-skills manifest
+pnpm run build
+pnpm test
+```
+
+Despues de generar los archivos, publicalos junto con los skills para que los
+usuarios del CLI aprovechen el camino rapido sin llamadas recursivas al
+Contents API.
 
 Cuando `add` detecta varias carpetas de skills, abre un selector interactivo en
 TTY con todas seleccionadas por defecto:
@@ -376,3 +389,18 @@ devuelve `404`, revisa que estes usando exactamente el scope publicado.
 Si el link `.cloude/skills` ya existe y no es un link, el CLI se detiene para
 no sobrescribir contenido manual. Mueve o borra esa carpeta antes de volver a
 ejecutar el comando.
+
+Si estas probando cambios locales con `node dist/index.js ...`, recompila antes
+de ejecutar:
+
+```bash
+pnpm run build
+node dist/index.js --help
+```
+
+`dist/` no se actualiza solo cuando cambias archivos de `src/`.
+
+Si empiezas a ver errores de rate limit de GitHub en carpetas grandes, genera y
+publica `gq-skills.json` con `gq-skills manifest`. Con esos manifiestos, `add`
+puede resolver los archivos a descargar sin recorrer la carpeta remota completa
+via GitHub Contents API.

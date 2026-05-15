@@ -89,6 +89,23 @@ node dist/index.js add documents --repo tu-org/gq-skills --dry-run
 node dist/index.js add /packs/backend --repo tu-org/gq-skills --dry-run
 ```
 
+Si cambias cualquier archivo en `src/`, vuelve a correr `pnpm run build` antes
+de probar con `node dist/index.js ...`. El contenido de `dist/` no se regenera
+de forma automatica.
+
+Si mantienes el repositorio de skills, tambien puedes regenerar los manifiestos
+que aceleran el discovery remoto:
+
+```bash
+pnpm run build
+node dist/index.js manifest
+pnpm test
+```
+
+Ese comando escribe `gq-skills.json` en `skills/` y en cada carpeta relevante
+con la lista completa de archivos que el CLI necesita descargar sin hacer un
+recorrido recursivo por GitHub Contents API.
+
 Crear un link global de desarrollo:
 
 ```bash

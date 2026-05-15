@@ -45,7 +45,9 @@ pnpm test
 - [src/skills-installation.ts](src/skills-installation.ts): filtrado de
   skills, descarga, escritura local y creacion del link `.cloude/skills`.
 - [src/skills-search.ts](src/skills-search.ts): acceso a GitHub API,
-  recursion de carpetas y descarga de archivos.
+  manifiestos `gq-skills.json`, recursion de carpetas y descarga de archivos.
+- [src/skills-manifest.ts](src/skills-manifest.ts): generacion local de
+  manifiestos `gq-skills.json` para acelerar discovery remoto.
 - [src/ui.ts](src/ui.ts): mensajes, barra de progreso y selector interactivo
   de carpetas con teclado.
 - [src/path-utils.ts](src/path-utils.ts): normalizacion y validaciones de
@@ -77,9 +79,16 @@ pnpm test
   disparan seleccion por carpeta antes de descargar.
 - Cuando hay varias carpetas encontradas y el modo interactivo esta activo, el
   selector usa flechas arriba/abajo para navegar, espacio para marcar,
-  enter para aceptar y escape o Ctrl+C para cancelar.
+  enter para aceptar y escape o Ctrl+C para cancelar. Al cerrar el selector,
+  debe devolver stdin en un estado que permita terminar el proceso sin dejar la
+  terminal retenida.
 - `--no-interactive` debe mantener un flujo apto para scripts y CI: omite el
   selector y descarga todas las carpetas encontradas.
+- Si existe `gq-skills.json` en la carpeta remota pedida, `add` debe preferir
+  ese manifiesto antes de caer al recorrido recursivo por GitHub Contents API.
+- `manifest [folder]` genera esos `gq-skills.json` desde el arbol local. Si se
+  modifica ese comando o el formato del manifiesto, actualiza tambien README y
+  tests.
 - `--dry-run` solo informa el plan de escritura y el link final; no debe crear
   archivos ni modificar links.
 - Los comandos deben seguir funcionando desde `npx @geminus-qhom/gq-skills ...`,
@@ -99,6 +108,8 @@ pnpm test
 - `--target`: cambia el directorio del proyecto destino. No tiene variable de
   entorno asociada.
 - `--no-interactive`: desactiva la seleccion interactiva aunque haya TTY.
+- `manifest [folder]`: genera manifiestos locales `gq-skills.json`; usa
+  `skills/` cuando no se pasa carpeta.
 - `GITHUB_TOKEN` o `GH_TOKEN`: autenticacion GitHub para repos privados o rate
   limits.
 - `GQ_SKILLS_CONFIG_HOME`: override del directorio donde se guarda o lee la
@@ -116,7 +127,7 @@ pnpm test
   autoskills. No los modifiques ni los elimines salvo que la tarea lo pida
   explicitamente.
 - `dist/` es salida generada por `pnpm run build`; no edites archivos compilados
-  a mano.
+  a mano. Si pruebas con `node dist/index.js`, recompila primero.
 - Para repos GitHub privados o rate limits, el CLI usa `GITHUB_TOKEN` o
   `GH_TOKEN`.
 - Las validaciones de [src/path-utils.ts](src/path-utils.ts) bloquean rutas
