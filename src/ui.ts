@@ -82,7 +82,7 @@ Opciones:
 
 Ejemplo:
   gq-skills login --client-id <github-oauth-client-id>
-  npx gq-skills add backend --repo tu-org/gq-skills
+  npx @geminus/gq-skills add backend --repo tu-org/gq-skills
 `);
 }
 

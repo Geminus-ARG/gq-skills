@@ -5,7 +5,7 @@ CLI para instalar skills propios desde carpetas de un repositorio GitHub.
 El comando principal es:
 
 ```bash
-npx gq-skills add <folder>
+npx @geminus/gq-skills add <folder>
 ```
 
 El CLI descarga recursivamente la carpeta indicada desde GitHub, copia los
@@ -35,25 +35,25 @@ Este proyecto fija pnpm en [package.json](package.json):
 Instalar skills desde una carpeta del repo configurado por defecto:
 
 ```bash
-npx gq-skills add packs/backend
+npx @geminus/gq-skills add packs/backend
 ```
 
 Instalar desde un repo especifico:
 
 ```bash
-npx gq-skills add packs/backend --repo tu-org/gq-skills
+npx @geminus/gq-skills add packs/backend --repo tu-org/gq-skills
 ```
 
 Instalar desde una rama, tag o commit especifico:
 
 ```bash
-npx gq-skills add packs/backend --repo tu-org/gq-skills --ref main
+npx @geminus/gq-skills add packs/backend --repo tu-org/gq-skills --ref main
 ```
 
 Ver que haria el comando sin escribir archivos:
 
 ```bash
-npx gq-skills add packs/backend --repo tu-org/gq-skills --dry-run
+npx @geminus/gq-skills add packs/backend --repo tu-org/gq-skills --dry-run
 ```
 
 Antes de descargar, el CLI informa cuantos skills y archivos encontro. Durante
@@ -183,13 +183,13 @@ gq-skills login --client-id <oauth-app-client-id> --scope repo
 Cuando el paquete este publicado en npm, se puede ejecutar directamente:
 
 ```bash
-npx gq-skills add packs/backend --repo tu-org/gq-skills
+npx @geminus/gq-skills add packs/backend --repo tu-org/gq-skills
 ```
 
 Tambien se puede usar pnpm:
 
 ```bash
-pnpm dlx gq-skills add packs/backend --repo tu-org/gq-skills
+pnpm dlx @geminus/gq-skills add packs/backend --repo tu-org/gq-skills
 ```
 
 ### Instalar globalmente
@@ -197,14 +197,14 @@ pnpm dlx gq-skills add packs/backend --repo tu-org/gq-skills
 Con npm:
 
 ```bash
-npm install --global gq-skills
+npm install --global @geminus/gq-skills
 gq-skills add packs/backend --repo tu-org/gq-skills
 ```
 
 Con pnpm:
 
 ```bash
-pnpm add --global gq-skills
+pnpm add --global @geminus/gq-skills
 gq-skills add packs/backend --repo tu-org/gq-skills
 ```
 
@@ -364,8 +364,8 @@ npm publish --tag beta
 Despues de publicar, se puede ejecutar con:
 
 ```bash
-npx gq-skills --version
-npx gq-skills add packs/backend --repo tu-org/gq-skills
+npx @geminus/gq-skills --version
+npx @geminus/gq-skills add packs/backend --repo tu-org/gq-skills
 ```
 
 ## Estructura del proyecto

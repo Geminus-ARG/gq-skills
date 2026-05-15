@@ -141,5 +141,9 @@ function parseLoginOptions(args: string[]): LoginOptions {
     throw new Error("Falta GQ_SKILLS_GITHUB_CLIENT_ID o --client-id. Crea una OAuth App de GitHub con Device Flow habilitado.");
   }
 
+  if (options.clientId.includes("@")) {
+    throw new Error("--client-id debe ser el Client ID de una OAuth App de GitHub, no un email. Crea una OAuth App con Device Flow habilitado y usa su Client ID.");
+  }
+
   return options;
 }

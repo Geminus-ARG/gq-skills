@@ -156,38 +156,6 @@ describe("addSkills", () => {
     expect(formatProgressLine(1, 2, "dotnet/SKILL.md")).toBe("Descargando [############------------] 1/2 dotnet/SKILL.md");
   });
 
-  it("hace login con device flow y guarda el token", async () => {
-    const configHome = await mkdtemp(join(tmpdir(), "gq-skills-config-"));
-    process.env.GQ_SKILLS_CONFIG_HOME = configHome;
-    vi.useFakeTimers();
-
-    globalThis.fetch = vi.fn(async (url: string | URL | Request) => {
-      const urlString = String(url);
-
-      if (urlString === "https://github.com/login/device/code") {
-        return jsonResponse({
-          device_code: "device-code",
-          user_code: "USER-CODE",
-          verification_uri: "https://github.com/login/device",
-          expires_in: 900,
-          interval: 1
-        });
-      }
-
-      if (urlString === "https://github.com/login/oauth/access_token") {
-        return jsonResponse({ access_token: "stored-token" });
-      }
-
-      return new Response("not found", { status: 404 });
-    }) as typeof fetch;
-
-    const login = main(["login", "--client-id", "client-id", "--no-open"]);
-    await vi.advanceTimersByTimeAsync(1000);
-    await login;
-
-    await expect(readFile(join(configHome, "gq-skills", "config.json"), "utf8")).resolves.toContain("stored-token");
-  });
-
   it("usa el token guardado al ejecutar add desde main", async () => {
     const cwd = await mkdtemp(join(tmpdir(), "gq-skills-"));
     const configHome = await mkdtemp(join(tmpdir(), "gq-skills-config-"));

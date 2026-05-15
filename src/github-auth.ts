@@ -51,6 +51,10 @@ async function requestDeviceCode(options: LoginOptions): Promise<DeviceCodeRespo
     })
   });
 
+  if (response.status === 404) {
+    throw new Error("GitHub no encontro una OAuth App para ese --client-id. Verifica que sea el Client ID de una OAuth App con Device Flow habilitado, no un email ni el nombre de usuario.");
+  }
+
   if (!response.ok) {
     throw new Error(`GitHub respondio ${response.status}: ${await response.text()}`);
   }
