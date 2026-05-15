@@ -13,6 +13,7 @@ export type AddOptions = {
   agentsDir: string;
   cloudeDir: string;
   dryRun: boolean;
+  interactive: boolean;
   token?: string;
 };
 
@@ -38,6 +39,14 @@ export type ProgressReporter = {
   file(progress: FileProgress): void;
   done(): void;
 };
+
+export type SkillFolderChoice = {
+  id: string;
+  displayName: string;
+  fileCount: number;
+};
+
+export type SkillSelector = (choices: SkillFolderChoice[]) => Promise<string[] | null>;
 
 export type LoginOptions = {
   clientId: string;

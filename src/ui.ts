@@ -1,4 +1,5 @@
-import type { ProgressReporter } from "./types.js";
+import { clearScreenDown, cursorTo, emitKeypressEvents, moveCursor } from "node:readline";
+import type { ProgressReporter, SkillFolderChoice } from "./types.js";
 
 type ColorName = "red" | "green" | "cyan" | "yellow";
 
@@ -31,6 +32,115 @@ export function error(message: string): void {
 
 export function formatFoundSummary(skillCount: number, fileCount: number): string {
   return `Encontrados ${skillCount} ${plural(skillCount, "skill", "skills")} en ${fileCount} ${plural(fileCount, "archivo", "archivos")}.`;
+}
+
+export async function selectSkillFolders(
+  choices: SkillFolderChoice[],
+  streams: {
+    input?: NodeJS.ReadStream;
+    output?: NodeJS.WriteStream;
+  } = {}
+): Promise<string[] | null> {
+  if (choices.length <= 1) {
+    return choices.map((choice) => choice.id);
+  }
+
+  const input = streams.input ?? process.stdin;
+  const output = streams.output ?? process.stderr;
+
+  if (!input.isTTY || !output.isTTY || typeof input.setRawMode !== "function") {
+    warning("Entorno no interactivo: se descargaran todas las carpetas encontradas.");
+    return choices.map((choice) => choice.id);
+  }
+
+  emitKeypressEvents(input);
+
+  const selected = new Set(choices.map((choice) => choice.id));
+  let currentIndex = 0;
+  let renderedLines = 0;
+  const restoreRawMode = input.isRaw;
+
+  const render = (): void => {
+    if (renderedLines > 0) {
+      moveCursor(output, 0, -renderedLines);
+      cursorTo(output, 0);
+      clearScreenDown(output);
+    }
+
+    const lines = [
+      "Selecciona las carpetas a descargar.",
+      "Usa flechas arriba/abajo para moverte, espacio para seleccionar, enter para continuar y escape para cancelar.",
+      ""
+    ];
+
+    for (const [index, choice] of choices.entries()) {
+      const pointer = index === currentIndex ? ">" : " ";
+      const marker = selected.has(choice.id) ? "[x]" : "[ ]";
+      lines.push(`${pointer} ${marker} ${choice.displayName} (${choice.fileCount} ${plural(choice.fileCount, "archivo", "archivos")})`);
+    }
+
+    output.write(`${lines.join("\n")}\n`);
+    renderedLines = lines.length;
+  };
+
+  const cleanup = (): void => {
+    input.off("keypress", onKeypress);
+    input.setRawMode(restoreRawMode);
+    if (renderedLines > 0) {
+      moveCursor(output, 0, -renderedLines);
+      cursorTo(output, 0);
+      clearScreenDown(output);
+    }
+  };
+
+  const onKeypress = (_value: string, key: { name?: string; ctrl?: boolean }): void => {
+    if (key.ctrl && key.name === "c") {
+      cleanup();
+      rejectSelection(null);
+      return;
+    }
+
+    switch (key.name) {
+      case "up":
+        currentIndex = currentIndex === 0 ? choices.length - 1 : currentIndex - 1;
+        render();
+        return;
+      case "down":
+        currentIndex = currentIndex === choices.length - 1 ? 0 : currentIndex + 1;
+        render();
+        return;
+      case "space": {
+        const currentChoice = choices[currentIndex];
+        if (selected.has(currentChoice.id)) {
+          selected.delete(currentChoice.id);
+        } else {
+          selected.add(currentChoice.id);
+        }
+        render();
+        return;
+      }
+      case "return":
+      case "enter":
+        cleanup();
+        rejectSelection([...selected]);
+        return;
+      case "escape":
+        cleanup();
+        rejectSelection(null);
+        return;
+      default:
+        return;
+    }
+  };
+
+  let rejectSelection: (value: string[] | null) => void = () => undefined;
+
+  return await new Promise<string[] | null>((resolve) => {
+    rejectSelection = resolve;
+    input.setRawMode(true);
+    input.on("keypress", onKeypress);
+    render();
+  });
 }
 
 export function createProgressReporter(total: number): ProgressReporter {
@@ -82,6 +192,12 @@ Opciones:
   --agents-dir <path>       Carpeta destino. Default: .agents.
   --cloude-dir <path>       Carpeta enlazada. Default: .cloude.
   --dry-run                 Muestra cambios sin escribir archivos.
+  --no-interactive          Omite el selector y descarga todas las carpetas encontradas.
+
+Seleccion interactiva:
+  Si se encuentran varias carpetas de skills, el CLI muestra una lista con todas
+  seleccionadas por defecto. Usa flechas arriba/abajo para moverte, espacio para
+  marcar o desmarcar, enter para continuar y escape para cancelar.
 
 Ejemplo:
   gq-skills login --client-id <github-oauth-client-id>

@@ -2,14 +2,18 @@ import { mkdir, lstat, rm, symlink, writeFile } from "node:fs/promises";
 import { dirname, join, relative, resolve, sep } from "node:path";
 import { basenameGithubPath, validateSafeRelativePath } from "./path-utils.js";
 import { countSkills, downloadGithubFiles, listGithubFolder } from "./skills-search.js";
-import type { AddOptions } from "./types.js";
-import { createProgressReporter, formatFoundSummary, info, success } from "./ui.js";
+import type { AddOptions, GithubFile, SkillFolderChoice, SkillSelector } from "./types.js";
+import { createProgressReporter, formatFoundSummary, info, selectSkillFolders, success } from "./ui.js";
+
+type AddSkillsDependencies = {
+  selectFolders?: SkillSelector;
+};
 
 /**
  * Descarga una carpeta de skills desde GitHub, la copia a .agents/skills y deja
  * listo el link .cloude/skills para que otras herramientas encuentren el contenido.
  */
-export async function addSkills(options: AddOptions): Promise<void> {
+export async function addSkills(options: AddOptions, dependencies: AddSkillsDependencies = {}): Promise<void> {
   validateSafeRelativePath(options.folder, "folder");
   validateSafeRelativePath(options.agentsDir, "agentsDir");
   validateSafeRelativePath(options.cloudeDir, "cloudeDir");
@@ -21,12 +25,24 @@ export async function addSkills(options: AddOptions): Promise<void> {
     throw new Error(`No se encontraron archivos en ${options.repo}/${options.folder}@${options.ref}.`);
   }
 
+  const discoveredSkillFolders = discoverSkillFolders(options.folder, files);
+  const discoveredSkillCount = discoveredSkillFolders.length || countSkills(files);
+
+  info(formatFoundSummary(discoveredSkillCount, files.length));
+
+  const chosenFiles = await filterSelectedFiles(options, files, discoveredSkillFolders, dependencies.selectFolders ?? selectSkillFolders);
+  if (chosenFiles.length === 0) {
+    info("No se selecciono ninguna carpeta. No se realizaron cambios.");
+    return;
+  }
+
   // installRoot es la carpeta real donde se escriben los archivos descargados.
   const installRoot = resolve(options.cwd, options.agentsDir, "skills");
-  const mappedFiles = mapSkillFiles(options.folder, files, installRoot);
-  const skillCount = countSkills(files);
+  const mappedFiles = mapSkillFiles(options.folder, chosenFiles, installRoot);
 
-  info(formatFoundSummary(skillCount, mappedFiles.length));
+  if (discoveredSkillFolders.length > 1) {
+    info(`Se descargaran ${mappedFiles.length} ${mappedFiles.length === 1 ? "archivo" : "archivos"} de ${chosenFiles.length === files.length ? "todas las carpetas encontradas" : "la seleccion elegida"}.`);
+  }
 
   if (options.dryRun) {
     for (const file of mappedFiles) {
@@ -47,6 +63,68 @@ export async function addSkills(options: AddOptions): Promise<void> {
 
   success(`Instalados ${mappedFiles.length} archivo(s) en ${relative(options.cwd, installRoot) || installRoot}.`);
   success(`Link listo: ${join(options.cloudeDir, "skills")} -> ${join(options.agentsDir, "skills")}`);
+}
+
+async function filterSelectedFiles(options: AddOptions, files: GithubFile[], skillFolders: SkillFolderChoice[], selector: SkillSelector): Promise<GithubFile[]> {
+  if (skillFolders.length <= 1) {
+    return files;
+  }
+
+  if (!options.interactive) {
+    info("Modo no interactivo: se descargaran todas las carpetas encontradas.");
+    return files;
+  }
+
+  const selectedIds = await selector(skillFolders);
+  if (selectedIds === null) {
+    throw new Error("Proceso cancelado por el usuario.");
+  }
+
+  if (selectedIds.length === 0) {
+    return [];
+  }
+
+  const selectedSet = new Set(selectedIds);
+  return files.filter((file) => {
+    for (const folder of skillFolders) {
+      if (!selectedSet.has(folder.id)) {
+        continue;
+      }
+
+      if (fileBelongsToSkillFolder(file.relativePath, folder.id)) {
+        return true;
+      }
+    }
+
+    return false;
+  });
+}
+
+function discoverSkillFolders(sourceFolder: string, files: GithubFile[]): SkillFolderChoice[] {
+  const rootSkillName = basenameGithubPath(sourceFolder);
+  const sourceContainsSkill = files.some((file) => file.relativePath === "SKILL.md");
+
+  if (sourceContainsSkill) {
+    return [{
+      id: rootSkillName,
+      displayName: rootSkillName,
+      fileCount: files.length
+    }];
+  }
+
+  const skillRoots = files
+    .filter((file) => file.relativePath.endsWith("/SKILL.md"))
+    .map((file) => file.relativePath.slice(0, -"/SKILL.md".length));
+
+  return [...new Set(skillRoots)].map((skillRoot) => ({
+    id: skillRoot,
+    displayName: skillRoot,
+    fileCount: files.filter((file) => fileBelongsToSkillFolder(file.relativePath, skillRoot)).length
+  }));
+}
+
+function fileBelongsToSkillFolder(relativePath: string, skillFolderId: string): boolean {
+  return relativePath === `${skillFolderId}/SKILL.md` || relativePath.startsWith(`${skillFolderId}/`);
 }
 
 // Cuando la carpeta origen ya contiene un SKILL.md en la raiz, se conserva su nombre como subcarpeta destino.

@@ -64,6 +64,7 @@ async function parseAddOptions(args: string[]): Promise<AddOptions> {
     agentsDir: process.env.GQ_SKILLS_AGENTS_DIR ?? DEFAULT_AGENTS_DIR,
     cloudeDir: process.env.GQ_SKILLS_CLOUDE_DIR ?? DEFAULT_CLOUDE_DIR,
     dryRun: false,
+    interactive: true,
     token: process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN ?? await readStoredGithubToken()
   };
 
@@ -71,6 +72,11 @@ async function parseAddOptions(args: string[]): Promise<AddOptions> {
     const arg = args[index];
     if (arg === "--dry-run") {
       options.dryRun = true;
+      continue;
+    }
+
+    if (arg === "--no-interactive") {
+      options.interactive = false;
       continue;
     }
 

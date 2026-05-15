@@ -16,7 +16,7 @@ export async function listGithubFolder(options: AddOptions, rootFolder = options
   }
 
   if (!response.ok) {
-    throw new Error(`GitHub respondio ${response.status}: ${await response.text()}`);
+    throw new Error(await formatGithubContentsError(response, options));
   }
 
   const payload = await response.json() as GithubDirectoryItem | GithubDirectoryItem[];
@@ -44,6 +44,19 @@ export async function listGithubFolder(options: AddOptions, rootFolder = options
   }
 
   return files;
+}
+
+async function formatGithubContentsError(response: Response, options: AddOptions): Promise<string> {
+  const body = await response.text();
+
+  if (response.status === 403 && body.toLowerCase().includes("rate limit exceeded")) {
+    const authHint = options.token
+      ? "Tu token fue aceptado, pero ese limite ya se agoto. Espera a que GitHub lo reponga o usa otro token con cupo disponible."
+      : "Ejecuta gq-skills login o define GITHUB_TOKEN para usar el limite autenticado, que es mas alto.";
+    return `GitHub bloqueo la consulta por rate limit al leer ${options.folder} en ${options.repo}@${options.ref}. ${authHint}`;
+  }
+
+  return `GitHub respondio ${response.status}: ${body}`;
 }
 
 export async function downloadGithubFiles<T extends GithubFile>(files: T[], options: AddOptions, reporter: ProgressReporter): Promise<Array<T & DownloadedFile>> {

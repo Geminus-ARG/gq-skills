@@ -122,6 +122,12 @@ Encontrados 2 skills en 4 archivos.
 Descargando [############------------] 2/4 node/SKILL.md
 ```
 
+Si encuentra varias carpetas de skills dentro de la ruta remota, abre un
+selector interactivo en la terminal con todas marcadas por defecto. Puedes usar
+flechas arriba y abajo para moverte, espacio para seleccionar o deseleccionar,
+enter para confirmar y escape para abortar el proceso. En entornos no
+interactivos, descarga todas las carpetas encontradas.
+
 Si la carpeta remota no existe, o la ruta indicada no es una carpeta, el comando
 termina con error sin escribir archivos.
 
@@ -161,6 +167,9 @@ Resultado local:
 Si la carpeta remota contiene varias carpetas de skills, se conserva esa
 estructura dentro de `.agents/skills`.
 
+En ese caso, antes de descargar el contenido, el CLI te deja elegir que
+subcarpetas instalar desde un selector interactivo.
+
 Cuando usas `add <folder>` sin slash inicial, el CLI busca dentro de `skills/`.
 Cuando usas `add /ruta`, toma la ruta exacta desde la raiz del repositorio.
 
@@ -190,7 +199,22 @@ gq-skills add <folder> [opciones]
 --agents-dir <path>       Carpeta destino. Default: .agents.
 --cloude-dir <path>       Carpeta enlazada. Default: .cloude.
 --dry-run                 Muestra cambios sin escribir archivos.
+--no-interactive          Omite el selector y descarga todas las carpetas encontradas.
 ```
+
+Cuando `add` detecta varias carpetas de skills, abre un selector interactivo en
+TTY con todas seleccionadas por defecto:
+
+```text
+Selecciona las carpetas a descargar.
+Usa flechas arriba/abajo para moverte, espacio para seleccionar, enter para continuar y escape para cancelar.
+
+> [x] dotnet (3 archivos)
+	[x] node (2 archivos)
+```
+
+Si estas ejecutando el CLI desde scripts, CI o cualquier flujo donde no quieras
+interaccion, puedes forzar ese comportamiento con `--no-interactive`.
 
 Variables de entorno soportadas:
 
