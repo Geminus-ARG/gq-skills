@@ -1,5 +1,5 @@
 {
-  "name": "@geminus/gq-skills",
+  "name": "@geminus-qhom/gq-skills",
   "version": "0.1.0",
   "description": "CLI para instalar skills propios desde carpetas de GitHub en .agents.",
   "type": "module",
