@@ -6,9 +6,12 @@ import { addSkills } from "./skills-installation.js";
 import type { AddOptions, LoginOptions } from "./types.js";
 import { error, printHelp, printWelcome } from "./ui.js";
 
+/**
+ * Punto de entrada del CLI. Lee el primer argumento para decidir si debe
+ * mostrar ayuda, imprimir la version, autenticar con GitHub o instalar skills.
+ */
 export async function main(argv = process.argv.slice(2)): Promise<void> {
   try {
-    
     printWelcome();
 
     const command = argv[0];
@@ -41,14 +44,20 @@ export async function main(argv = process.argv.slice(2)): Promise<void> {
   }
 }
 
+/**
+ * Construye las opciones del comando add mezclando argumentos, variables de
+ * entorno y valores por defecto del proyecto.
+ */
 async function parseAddOptions(args: string[]): Promise<AddOptions> {
   const folder = args[0];
   if (!folder || folder.startsWith("-")) {
     throw new Error("Uso: gq-skills add <folder> [--repo owner/repo] [--ref branch]");
   }
 
+  // Estas propiedades concentran toda la configuracion efectiva del comando.
+  // Cada valor puede venir del CLI, del entorno o de defaults persistidos.
   const options: AddOptions = {
-    folder: normalizeGithubPath(folder),
+    folder: resolveRequestedFolder(folder),
     repo: process.env.GQ_SKILLS_REPO ?? await readDefaultRepo(),
     ref: process.env.GQ_SKILLS_REF ?? DEFAULT_REF,
     cwd: process.cwd(),
@@ -68,6 +77,7 @@ async function parseAddOptions(args: string[]): Promise<AddOptions> {
     const [flag, inlineValue] = arg.split("=", 2);
     const value = inlineValue ?? args[index + 1];
 
+    // El parser soporta ambas variantes: --flag value y --flag=value.
     if (["--repo", "--ref", "--target", "--agents-dir", "--cloude-dir"].includes(flag) && !value) {
       throw new Error(`Falta valor para ${flag}.`);
     }
@@ -101,6 +111,19 @@ async function parseAddOptions(args: string[]): Promise<AddOptions> {
   return options;
 }
 
+// Si el usuario pasa un path relativo corto, se asume que apunta al arbol skills/ del repositorio remoto.
+function resolveRequestedFolder(folder: string): string {
+  const normalizedFolder = normalizeGithubPath(folder);
+
+  return folder.startsWith("/")
+    ? normalizedFolder
+    : normalizeGithubPath(`skills/${normalizedFolder}`);
+}
+
+/**
+ * Arma las opciones del login GitHub. Usa la configuracion del entorno para el
+ * Client ID y el scope, y permite desactivar la apertura automatica del navegador.
+ */
 function parseLoginOptions(args: string[]): LoginOptions {
   const options: LoginOptions = {
     clientId: process.env.GQ_SKILLS_GITHUB_CLIENT_ID ?? "",

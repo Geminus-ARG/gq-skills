@@ -85,7 +85,8 @@ Probar el CLI compilado:
 ```bash
 node dist/index.js --version
 node dist/index.js --help
-node dist/index.js add packs/backend --repo tu-org/gq-skills --dry-run
+node dist/index.js add documents --repo tu-org/gq-skills --dry-run
+node dist/index.js add /packs/backend --repo tu-org/gq-skills --dry-run
 ```
 
 Crear un link global de desarrollo:
@@ -177,7 +178,7 @@ Despues de publicar, valida desde npm:
 
 ```bash
 npx @geminus-qhom/gq-skills --version
-npx @geminus-qhom/gq-skills add packs/backend --repo tu-org/gq-skills
+npx @geminus-qhom/gq-skills add documents --repo tu-org/gq-skills
 ```
 
 ## Estructura del proyecto

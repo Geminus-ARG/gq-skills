@@ -8,6 +8,10 @@ El comando principal es:
 npx @geminus-qhom/gq-skills add <folder>
 ```
 
+Por defecto, `add <folder>` resuelve la ruta remota dentro de `skills/`.
+Por ejemplo, `add documents` busca `skills/documents`. Si quieres apuntar a
+otra carpeta del repositorio, usa un slash inicial: `add /packs/backend`.
+
 El CLI descarga recursivamente la carpeta indicada desde GitHub, copia los
 skills a `.agents/skills` y crea un link `.cloude/skills` que apunta a
 `.agents/skills`.
@@ -23,14 +27,14 @@ Si necesitas compilar el proyecto, empaquetarlo o publicarlo en npm, consulta
 Instalar los skills del repositorio oficial sin instalar el CLI globalmente:
 
 ```bash
-npx @geminus-qhom/gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+npx @geminus-qhom/gq-skills add documents --repo Geminus-ARG/gq-skills
 ```
 
 Instalar el CLI globalmente y reutilizarlo despues:
 
 ```bash
 npm install --global @geminus-qhom/gq-skills
-gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+gq-skills add documents --repo Geminus-ARG/gq-skills
 ```
 
 ## Contenido
@@ -67,45 +71,45 @@ Para usuarios del equipo, la forma mas simple es ejecutar el paquete publicado
 sin instalarlo globalmente:
 
 ```bash
-npx @geminus-qhom/gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+npx @geminus-qhom/gq-skills add documents --repo Geminus-ARG/gq-skills
 ```
 
 Si lo van a usar seguido, conviene instalarlo una sola vez:
 
 ```bash
 npm install --global @geminus-qhom/gq-skills
-gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+gq-skills add documents --repo Geminus-ARG/gq-skills
 ```
 
 Con pnpm:
 
 ```bash
 pnpm add --global @geminus-qhom/gq-skills
-gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+gq-skills add documents --repo Geminus-ARG/gq-skills
 ```
 
 Instalar skills desde una carpeta del repo configurado por defecto:
 
 ```bash
-npx @geminus-qhom/gq-skills add packs/backend
+npx @geminus-qhom/gq-skills add documents
 ```
 
-Instalar desde un repo especifico:
+Instalar desde una carpeta fuera de `skills/`:
 
 ```bash
-npx @geminus-qhom/gq-skills add packs/backend --repo tu-org/gq-skills
+npx @geminus-qhom/gq-skills add /packs/backend --repo tu-org/gq-skills
 ```
 
 Instalar desde una rama, tag o commit especifico:
 
 ```bash
-npx @geminus-qhom/gq-skills add packs/backend --repo tu-org/gq-skills --ref main
+npx @geminus-qhom/gq-skills add /packs/backend --repo tu-org/gq-skills --ref main
 ```
 
 Ver que haria el comando sin escribir archivos:
 
 ```bash
-npx @geminus-qhom/gq-skills add packs/backend --repo tu-org/gq-skills --dry-run
+npx @geminus-qhom/gq-skills add /packs/backend --repo tu-org/gq-skills --dry-run
 ```
 
 Antes de descargar, el CLI informa cuantos skills y archivos encontro. Durante
@@ -113,7 +117,7 @@ la descarga muestra una barra de progreso con el archivo relativo que esta
 bajando:
 
 ```text
-Buscando packs/backend en tu-org/gq-skills@main...
+Buscando skills/documents en tu-org/gq-skills@main...
 Encontrados 2 skills en 4 archivos.
 Descargando [############------------] 2/4 node/SKILL.md
 ```
@@ -157,6 +161,9 @@ Resultado local:
 Si la carpeta remota contiene varias carpetas de skills, se conserva esa
 estructura dentro de `.agents/skills`.
 
+Cuando usas `add <folder>` sin slash inicial, el CLI busca dentro de `skills/`.
+Cuando usas `add /ruta`, toma la ruta exacta desde la raiz del repositorio.
+
 Ejemplo remoto:
 
 ```text
@@ -176,6 +183,7 @@ Resultado local:
 ```bash
 gq-skills add <folder> [opciones]
 
+<folder>                  Busca `skills/<folder>` por defecto. Usa `/ruta` para una ruta exacta del repo.
 --repo <owner/repo>       Repo GitHub origen. Tambien se puede usar GQ_SKILLS_REPO.
 --ref <branch|tag|sha>    Rama, tag o commit. Default: main.
 --target <path>           Carpeta del proyecto donde instalar. Default: cwd.
@@ -235,13 +243,13 @@ gq-skills login --client-id <oauth-app-client-id> --scope repo
 El paquete publicado en npm se puede ejecutar directamente:
 
 ```bash
-npx @geminus-qhom/gq-skills add packs/backend --repo tu-org/gq-skills
+npx @geminus-qhom/gq-skills add documents --repo tu-org/gq-skills
 ```
 
 Tambien se puede usar pnpm:
 
 ```bash
-pnpm dlx @geminus-qhom/gq-skills add packs/backend --repo tu-org/gq-skills
+pnpm dlx @geminus-qhom/gq-skills add documents --repo tu-org/gq-skills
 ```
 
 ### Instalar globalmente
@@ -250,14 +258,14 @@ Con npm:
 
 ```bash
 npm install --global @geminus-qhom/gq-skills
-gq-skills add packs/backend --repo tu-org/gq-skills
+gq-skills add documents --repo tu-org/gq-skills
 ```
 
 Con pnpm:
 
 ```bash
 pnpm add --global @geminus-qhom/gq-skills
-gq-skills add packs/backend --repo tu-org/gq-skills
+gq-skills add documents --repo tu-org/gq-skills
 ```
 
 ### Instalar para todo el equipo
@@ -266,7 +274,7 @@ Pasos minimos para cualquier desarrollador:
 
 ```bash
 node --version
-npx @geminus-qhom/gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+npx @geminus-qhom/gq-skills add documents --repo Geminus-ARG/gq-skills
 ```
 
 El nombre del paquete para instalar es `@geminus-qhom/gq-skills`. El comando
@@ -276,14 +284,14 @@ Si quieren dejar el CLI instalado en su maquina:
 
 ```bash
 npm install --global @geminus-qhom/gq-skills
-gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+gq-skills add documents --repo Geminus-ARG/gq-skills
 ```
 
 O con pnpm:
 
 ```bash
 pnpm add --global @geminus-qhom/gq-skills
-gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+gq-skills add documents --repo Geminus-ARG/gq-skills
 ```
 
 Si el repo origen es privado, pueden usar un token temporal:
@@ -292,27 +300,27 @@ En PowerShell:
 
 ```powershell
 $env:GITHUB_TOKEN="<token>"
-npx @geminus-qhom/gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+npx @geminus-qhom/gq-skills add documents --repo Geminus-ARG/gq-skills
 ```
 
 En cmd.exe:
 
 ```bat
 set GITHUB_TOKEN=<token>
-npx @geminus-qhom/gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+npx @geminus-qhom/gq-skills add documents --repo Geminus-ARG/gq-skills
 ```
 
 En macOS o Linux:
 
 ```bash
-GITHUB_TOKEN=<token> npx @geminus-qhom/gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+GITHUB_TOKEN=<token> npx @geminus-qhom/gq-skills add documents --repo Geminus-ARG/gq-skills
 ```
 
 O guardar un token con el login del CLI:
 
 ```bash
 gq-skills login --client-id <oauth-app-client-id>
-gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+gq-skills add documents --repo Geminus-ARG/gq-skills
 ```
 
 ## Troubleshooting

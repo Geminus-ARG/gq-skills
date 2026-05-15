@@ -70,6 +70,9 @@ Uso:
   gq-skills login [opciones]
   gq-skills add <folder> [opciones]
 
+'add <folder>' busca por defecto dentro de 'skills/'.
+Usa '/ruta' para apuntar a otra carpeta del repo.
+
 Opciones:
   --client-id <id>         Client ID de OAuth App para gq-skills login.
   --scope <scope>          Permisos de GitHub para login. Default: repo.
@@ -82,7 +85,8 @@ Opciones:
 
 Ejemplo:
   gq-skills login --client-id <github-oauth-client-id>
-  npx @geminus-qhom/gq-skills add backend --repo tu-org/gq-skills
+  npx @geminus-qhom/gq-skills add documents --repo tu-org/gq-skills
+  npx @geminus-qhom/gq-skills add /packs/backend --repo tu-org/gq-skills
 `);
 }
 

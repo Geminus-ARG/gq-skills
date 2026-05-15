@@ -5,6 +5,10 @@ import { countSkills, downloadGithubFiles, listGithubFolder } from "./skills-sea
 import type { AddOptions } from "./types.js";
 import { createProgressReporter, formatFoundSummary, info, success } from "./ui.js";
 
+/**
+ * Descarga una carpeta de skills desde GitHub, la copia a .agents/skills y deja
+ * listo el link .cloude/skills para que otras herramientas encuentren el contenido.
+ */
 export async function addSkills(options: AddOptions): Promise<void> {
   validateSafeRelativePath(options.folder, "folder");
   validateSafeRelativePath(options.agentsDir, "agentsDir");
@@ -17,6 +21,7 @@ export async function addSkills(options: AddOptions): Promise<void> {
     throw new Error(`No se encontraron archivos en ${options.repo}/${options.folder}@${options.ref}.`);
   }
 
+  // installRoot es la carpeta real donde se escriben los archivos descargados.
   const installRoot = resolve(options.cwd, options.agentsDir, "skills");
   const mappedFiles = mapSkillFiles(options.folder, files, installRoot);
   const skillCount = countSkills(files);
@@ -44,12 +49,14 @@ export async function addSkills(options: AddOptions): Promise<void> {
   success(`Link listo: ${join(options.cloudeDir, "skills")} -> ${join(options.agentsDir, "skills")}`);
 }
 
+// Cuando la carpeta origen ya contiene un SKILL.md en la raiz, se conserva su nombre como subcarpeta destino.
 function mapSkillFiles<T extends { relativePath: string }>(sourceFolder: string, files: T[], installRoot: string): Array<T & { targetPath: string }> {
   const sourceContainsSkill = files.some((file) => file.relativePath === "SKILL.md");
   const targetPrefix = sourceContainsSkill ? basenameGithubPath(sourceFolder) : "";
 
   return files.map((file) => {
     validateSafeRelativePath(file.relativePath, "relativePath");
+    // relativeTarget normaliza separadores de GitHub a la plataforma local.
     const relativeTarget = targetPrefix ? join(targetPrefix, file.relativePath) : file.relativePath.split("/").join(sep);
     return {
       ...file,
@@ -58,6 +65,10 @@ function mapSkillFiles<T extends { relativePath: string }>(sourceFolder: string,
   });
 }
 
+/**
+ * Garantiza que .cloude/skills apunte a .agents/skills.
+ * En Windows usa junctions; en Unix crea un symlink relativo.
+ */
 async function ensureCloudeSkillsLink(cwd: string, agentsDir: string, cloudeDir: string): Promise<void> {
   const agentsSkills = resolve(cwd, agentsDir, "skills");
   const cloudeRoot = resolve(cwd, cloudeDir);
@@ -79,6 +90,7 @@ async function ensureCloudeSkillsLink(cwd: string, agentsDir: string, cloudeDir:
     }
   }
 
+  // Windows resuelve mejor un path absoluto para junctions; Unix prefiere links relativos portables.
   const target = process.platform === "win32" ? agentsSkills : relative(dirname(linkPath), agentsSkills) || ".";
   await symlink(target, linkPath, process.platform === "win32" ? "junction" : "dir");
 }

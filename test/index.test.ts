@@ -186,6 +186,56 @@ describe("addSkills", () => {
 
     await expect(readFile(join(cwd, ".agents", "skills", "angular", "SKILL.md"), "utf8")).resolves.toBe("# angular");
   });
+
+  it("usa skills como carpeta base por defecto al ejecutar add desde main", async () => {
+    const cwd = await mkdtemp(join(tmpdir(), "gq-skills-"));
+
+    globalThis.fetch = vi.fn(async (url: string | URL | Request) => {
+      const urlString = String(url);
+
+      if (urlString.startsWith("https://api.github.com/repos/owner/repo/contents/")) {
+        expect(urlString).toContain("/contents/skills/documents?");
+        return jsonResponse([
+          { type: "file", name: "SKILL.md", path: "skills/documents/SKILL.md", download_url: "https://download/documents" }
+        ]);
+      }
+
+      if (urlString === "https://download/documents") {
+        return new Response("# documents", { status: 200 });
+      }
+
+      return new Response("not found", { status: 404 });
+    }) as typeof fetch;
+
+    await main(["add", "documents", "--repo", "owner/repo", "--target", cwd]);
+
+    await expect(readFile(join(cwd, ".agents", "skills", "documents", "SKILL.md"), "utf8")).resolves.toBe("# documents");
+  });
+
+  it("usa la ruta exacta cuando add recibe un path absoluto de repo con slash inicial", async () => {
+    const cwd = await mkdtemp(join(tmpdir(), "gq-skills-"));
+
+    globalThis.fetch = vi.fn(async (url: string | URL | Request) => {
+      const urlString = String(url);
+
+      if (urlString.startsWith("https://api.github.com/repos/owner/repo/contents/")) {
+        expect(urlString).toContain("/contents/otra/documents?");
+        return jsonResponse([
+          { type: "file", name: "SKILL.md", path: "otra/documents/SKILL.md", download_url: "https://download/otra-documents" }
+        ]);
+      }
+
+      if (urlString === "https://download/otra-documents") {
+        return new Response("# otra documents", { status: 200 });
+      }
+
+      return new Response("not found", { status: 404 });
+    }) as typeof fetch;
+
+    await main(["add", "/otra/documents", "--repo", "owner/repo", "--target", cwd]);
+
+    await expect(readFile(join(cwd, ".agents", "skills", "documents", "SKILL.md"), "utf8")).resolves.toBe("# otra documents");
+  });
 });
 
 function mockGithub(tree: Record<string, unknown>, downloads: Record<string, string>): void {

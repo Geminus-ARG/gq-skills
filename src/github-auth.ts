@@ -6,6 +6,10 @@ import { githubConfigPath } from "./config.js";
 import type { AccessTokenResponse, DeviceCodeResponse, LoginOptions } from "./types.js";
 import { info, success } from "./ui.js";
 
+/**
+ * Ejecuta el Device Flow de GitHub y persiste el token para reutilizarlo en
+ * descargas posteriores sin volver a pedir autenticacion.
+ */
 export async function loginGithub(options: LoginOptions): Promise<void> {
   info("Solicitando autorizacion a GitHub...");
   const deviceCode = await requestDeviceCode(options);
@@ -24,6 +28,7 @@ export async function loginGithub(options: LoginOptions): Promise<void> {
   success(`Login listo. Token guardado en ${githubConfigPath()}.`);
 }
 
+// Lee el token local si existe y filtra cualquier valor invalido del archivo JSON.
 export async function readStoredGithubToken(): Promise<string | undefined> {
   try {
     const config = JSON.parse(await readFile(githubConfigPath(), "utf8")) as { githubToken?: unknown };
@@ -37,6 +42,7 @@ export async function readStoredGithubToken(): Promise<string | undefined> {
   }
 }
 
+// Pide a GitHub el codigo temporal que el usuario debe autorizar en el navegador.
 async function requestDeviceCode(options: LoginOptions): Promise<DeviceCodeResponse> {
   const response = await fetch("https://github.com/login/device/code", {
     method: "POST",
@@ -67,6 +73,10 @@ async function requestDeviceCode(options: LoginOptions): Promise<DeviceCodeRespo
   return payload;
 }
 
+/**
+ * Hace polling hasta recibir un access token o hasta que el codigo expire.
+ * interval se ajusta si GitHub pide bajar la frecuencia con slow_down.
+ */
 async function pollAccessToken(clientId: string, deviceCode: DeviceCodeResponse): Promise<string> {
   let interval = Math.max(deviceCode.interval ?? 5, 1);
   const expiresAt = Date.now() + deviceCode.expires_in * 1000;
@@ -115,12 +125,14 @@ async function pollAccessToken(clientId: string, deviceCode: DeviceCodeResponse)
   throw new Error("El codigo de autorizacion expiro. Ejecuta gq-skills login otra vez.");
 }
 
+// Guarda el token en un archivo de configuracion local para futuras ejecuciones del CLI.
 async function writeStoredGithubToken(token: string): Promise<void> {
   const configPath = githubConfigPath();
   await mkdir(dirname(configPath), { recursive: true });
   await writeFile(configPath, `${JSON.stringify({ githubToken: token }, null, 2)}\n`, { mode: 0o600 });
 }
 
+// Intenta abrir el navegador por plataforma, pero no interrumpe el login si falla.
 async function openBrowser(url: string): Promise<void> {
   const command = process.platform === "win32" ? "cmd" : process.platform === "darwin" ? "open" : "xdg-open";
   const args = process.platform === "win32" ? ["/c", "start", "", url] : [url];

@@ -13,6 +13,7 @@ if (isDirectExecution()) {
   await main();
 }
 
+// Permite reutilizar el entrypoint desde tests o imports sin ejecutar el CLI automaticamente.
 function isDirectExecution(): boolean {
   return process.argv[1] !== undefined && resolve(process.argv[1]) === fileURLToPath(import.meta.url);
 }
