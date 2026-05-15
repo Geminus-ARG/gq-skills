@@ -8,6 +8,9 @@ import { error, printHelp, printWelcome } from "./ui.js";
 
 export async function main(argv = process.argv.slice(2)): Promise<void> {
   try {
+    
+    printWelcome();
+
     const command = argv[0];
 
     if (!command || command === "--help" || command === "-h") {
@@ -21,7 +24,6 @@ export async function main(argv = process.argv.slice(2)): Promise<void> {
     }
 
     if (command === "login") {
-      printWelcome();
       const options = parseLoginOptions(argv.slice(1));
       await loginGithub(options);
       return;
@@ -31,7 +33,6 @@ export async function main(argv = process.argv.slice(2)): Promise<void> {
       throw new Error(`Comando desconocido: ${command}`);
     }
 
-    printWelcome();
     const options = await parseAddOptions(argv.slice(1));
     await addSkills(options);
   } catch (caughtError) {
