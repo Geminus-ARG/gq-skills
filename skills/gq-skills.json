@@ -1095,26 +1095,6 @@
       "relativePath": "flutter/flask-api-development/templates/api-scaffold.yaml"
     },
     {
-      "sourcePath": "skills/flutter/fluentui-blazor/references/DATAGRID.md",
-      "relativePath": "flutter/fluentui-blazor/references/DATAGRID.md"
-    },
-    {
-      "sourcePath": "skills/flutter/fluentui-blazor/references/LAYOUT-AND-NAVIGATION.md",
-      "relativePath": "flutter/fluentui-blazor/references/LAYOUT-AND-NAVIGATION.md"
-    },
-    {
-      "sourcePath": "skills/flutter/fluentui-blazor/references/SETUP.md",
-      "relativePath": "flutter/fluentui-blazor/references/SETUP.md"
-    },
-    {
-      "sourcePath": "skills/flutter/fluentui-blazor/references/THEMING.md",
-      "relativePath": "flutter/fluentui-blazor/references/THEMING.md"
-    },
-    {
-      "sourcePath": "skills/flutter/fluentui-blazor/SKILL.md",
-      "relativePath": "flutter/fluentui-blazor/SKILL.md"
-    },
-    {
       "sourcePath": "skills/flutter/flutter-animations/assets/templates/explicit_animation.dart",
       "relativePath": "flutter/flutter-animations/assets/templates/explicit_animation.dart"
     },
