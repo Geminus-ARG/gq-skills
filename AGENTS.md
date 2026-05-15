@@ -8,8 +8,9 @@ Instrucciones para agentes de coding que trabajen en este repositorio.
 descarga carpetas de skills desde GitHub, las instala en `.agents/skills` y
 crea un link `.cloude/skills` hacia esa carpeta.
 
-Lee [README.md](README.md) para el uso completo del CLI, instalacion,
-compilacion, empaquetado y versionado.
+Lee [README.md](README.md) para uso e instalacion desde npm, y
+[README.dev.md](README.dev.md) para compilacion, empaquetado, publicacion y
+versionado.
 
 ## Stack y comandos
 
@@ -58,8 +59,9 @@ pnpm test
   usan symlinks relativos.
 - El parsing actual acepta `--flag value` y `--flag=value`; no rompas ese
   comportamiento al agregar opciones.
-- Los comandos deben seguir funcionando desde `npx gq-skills ...`,
-  `pnpm dlx gq-skills ...` y `node dist/index.js ...`.
+- Los comandos deben seguir funcionando desde `npx @geminus-qhom/gq-skills ...`,
+  `pnpm dlx @geminus-qhom/gq-skills ...`, `gq-skills ...` y
+  `node dist/index.js ...`.
 - Si agregas comportamiento del CLI, agrega o actualiza tests en
   [test/index.test.ts](test/index.test.ts).
 
@@ -78,6 +80,6 @@ pnpm test
 
 ## Documentacion
 
-Evita duplicar instrucciones largas en nuevos archivos. Enlaza a
-[README.md](README.md) para uso, instalacion, build, pack, versionado y
-troubleshooting.
+Mantener la documentacion separada por audiencia:
+- [README.md](README.md) para uso e instalacion del paquete publicado.
+- [README.dev.md](README.dev.md) para build, pack, versionado y publicacion.

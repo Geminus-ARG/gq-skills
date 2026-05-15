@@ -1,6 +1,6 @@
 {
   "name": "@geminus-qhom/gq-skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI para instalar skills propios desde carpetas de GitHub en .agents.",
   "type": "module",
   "packageManager": "pnpm@11.1.2",

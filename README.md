@@ -12,6 +12,37 @@ El CLI descarga recursivamente la carpeta indicada desde GitHub, copia los
 skills a `.agents/skills` y crea un link `.cloude/skills` que apunta a
 `.agents/skills`.
 
+El paquete publicado en npm es `@geminus-qhom/gq-skills`, pero el binario que
+queda disponible al instalarlo es `gq-skills`.
+
+Si necesitas compilar el proyecto, empaquetarlo o publicarlo en npm, consulta
+[README.dev.md](README.dev.md).
+
+## Inicio rapido
+
+Instalar los skills del repositorio oficial sin instalar el CLI globalmente:
+
+```bash
+npx @geminus-qhom/gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+```
+
+Instalar el CLI globalmente y reutilizarlo despues:
+
+```bash
+npm install --global @geminus-qhom/gq-skills
+gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+```
+
+## Contenido
+
+- [Requisitos](#requisitos)
+- [Uso rapido](#uso-rapido)
+- [Que instala](#que-instala)
+- [Convenciones de carpetas](#convenciones-de-carpetas)
+- [Opciones del CLI](#opciones-del-cli)
+- [Instalar el CLI](#instalar-el-cli)
+- [Troubleshooting](#troubleshooting)
+
 ## Requisitos
 
 - Node.js 20 o superior.
@@ -43,6 +74,13 @@ Si lo van a usar seguido, conviene instalarlo una sola vez:
 
 ```bash
 npm install --global @geminus-qhom/gq-skills
+gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+```
+
+Con pnpm:
+
+```bash
+pnpm add --global @geminus-qhom/gq-skills
 gq-skills add skills/documents --repo Geminus-ARG/gq-skills
 ```
 
@@ -231,6 +269,9 @@ node --version
 npx @geminus-qhom/gq-skills add skills/documents --repo Geminus-ARG/gq-skills
 ```
 
+El nombre del paquete para instalar es `@geminus-qhom/gq-skills`. El comando
+que se ejecuta despues de instalarlo sigue siendo `gq-skills`.
+
 Si quieren dejar el CLI instalado en su maquina:
 
 ```bash
@@ -238,7 +279,30 @@ npm install --global @geminus-qhom/gq-skills
 gq-skills add skills/documents --repo Geminus-ARG/gq-skills
 ```
 
+O con pnpm:
+
+```bash
+pnpm add --global @geminus-qhom/gq-skills
+gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+```
+
 Si el repo origen es privado, pueden usar un token temporal:
+
+En PowerShell:
+
+```powershell
+$env:GITHUB_TOKEN="<token>"
+npx @geminus-qhom/gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+```
+
+En cmd.exe:
+
+```bat
+set GITHUB_TOKEN=<token>
+npx @geminus-qhom/gq-skills add skills/documents --repo Geminus-ARG/gq-skills
+```
+
+En macOS o Linux:
 
 ```bash
 GITHUB_TOKEN=<token> npx @geminus-qhom/gq-skills add skills/documents --repo Geminus-ARG/gq-skills
@@ -251,179 +315,6 @@ gq-skills login --client-id <oauth-app-client-id>
 gq-skills add skills/documents --repo Geminus-ARG/gq-skills
 ```
 
-### Instalar localmente para desarrollo
-
-Desde este repositorio:
-
-```bash
-corepack enable
-pnpm install
-pnpm run build
-```
-
-Ejecutar el binario compilado:
-
-```bash
-node dist/index.js --help
-node dist/index.js add packs/backend --repo tu-org/gq-skills --dry-run
-```
-
-Crear un link global de desarrollo:
-
-```bash
-pnpm link --global
-gq-skills --help
-```
-
-Para quitar el link global:
-
-```bash
-pnpm remove --global gq-skills
-```
-
-## Desarrollo
-
-Instalar dependencias:
-
-```bash
-corepack enable
-pnpm install
-```
-
-Verificar tipos:
-
-```bash
-pnpm run typecheck
-```
-
-Ejecutar tests:
-
-```bash
-pnpm test
-```
-
-Compilar:
-
-```bash
-pnpm run build
-```
-
-Flujo recomendado antes de publicar o abrir un PR:
-
-```bash
-pnpm install
-pnpm run typecheck
-pnpm run build
-pnpm test
-```
-
-pnpm 11 bloquea build scripts de dependencias por seguridad. Este repositorio
-aprueba el build de `esbuild` en [pnpm-workspace.yaml](pnpm-workspace.yaml),
-porque Vitest lo necesita para funcionar correctamente.
-
-## Compilar y empaquetar
-
-Compilar el proyecto genera el binario en `dist/index.js`:
-
-```bash
-pnpm run build
-```
-
-Probar el CLI compilado:
-
-```bash
-node dist/index.js --version
-node dist/index.js --help
-```
-
-Crear un paquete `.tgz` local para probar la instalacion:
-
-```bash
-pnpm pack
-```
-
-Instalar el paquete generado en otro proyecto:
-
-```bash
-npm install --global ./geminus-qhom-gq-skills-0.1.0.tgz
-gq-skills --help
-```
-
-El script `prepack` compila automaticamente antes de empaquetar:
-
-```json
-"prepack": "tsc -p tsconfig.build.json"
-```
-
-## Actualizar version
-
-Antes de cambiar la version, valida el proyecto:
-
-```bash
-pnpm install
-pnpm run typecheck
-pnpm run build
-pnpm test
-```
-
-Actualizar version patch, minor o major:
-
-```bash
-pnpm version patch
-pnpm version minor
-pnpm version major
-```
-
-Tambien se puede fijar una version exacta:
-
-```bash
-pnpm version 0.2.0
-```
-
-Luego vuelve a empaquetar y prueba el resultado:
-
-```bash
-pnpm pack
-npm install --global ./geminus-qhom-gq-skills-<version>.tgz
-gq-skills --version
-```
-
-Si el paquete se publica en npm, el flujo recomendado es:
-
-```bash
-pnpm run typecheck
-pnpm run build
-pnpm test
-pnpm pack
-npm publish --access public
-```
-
-Para publicar una version beta o de prueba:
-
-```bash
-npm publish --tag beta --access public
-```
-
-Despues de publicar, se puede ejecutar con:
-
-```bash
-npx @geminus-qhom/gq-skills --version
-npx @geminus-qhom/gq-skills add packs/backend --repo tu-org/gq-skills
-```
-
-## Estructura del proyecto
-
-```text
-src/index.ts           Codigo del CLI.
-test/index.test.ts     Tests con Vitest.
-dist/                  Salida compilada, generada por pnpm run build.
-package.json           Metadata, binario y scripts del paquete.
-pnpm-lock.yaml         Lockfile de dependencias.
-pnpm-workspace.yaml    Configuracion de pnpm 11 para builds aprobados.
-tsconfig.json          Configuracion TypeScript para desarrollo y tests.
-tsconfig.build.json    Configuracion TypeScript para compilar src a dist.
-```
-
 ## Troubleshooting
 
 Si `pnpm install` usa una version inesperada, confirma Corepack:
@@ -433,11 +324,9 @@ corepack enable
 corepack pnpm --version
 ```
 
-Si pnpm bloquea un build script de una dependencia nueva:
-
-```bash
-pnpm approve-builds
-```
+Si `pnpm add --global @geminus-qhom/gq-skills` o `npm install --global @geminus-qhom/gq-skills`
+devuelve `404`, revisa que estes usando exactamente el scope publicado.
+`@geminus/gq-skills` y `@geminus-qhom/gq-skills` son paquetes distintos.
 
 Si el link `.cloude/skills` ya existe y no es un link, el CLI se detiene para
 no sobrescribir contenido manual. Mueve o borra esa carpeta antes de volver a
