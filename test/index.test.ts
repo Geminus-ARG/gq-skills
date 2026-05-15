@@ -196,6 +196,50 @@ describe("addSkills", () => {
     await expect(readFile(join(cwd, ".agents", "skills", "angular", "SKILL.md"), "utf8")).resolves.toBe("# angular");
   });
 
+  it("usa gq-skills.json para evitar listar recursivamente por la API de contents", async () => {
+    const cwd = await mkdtemp(join(tmpdir(), "gq-skills-"));
+
+    globalThis.fetch = vi.fn(async (url: string | URL | Request) => {
+      const urlString = String(url);
+
+      if (urlString === "https://raw.githubusercontent.com/owner/repo/main/skills/documents/gq-skills.json") {
+        return jsonResponse({
+          version: 1,
+          folder: "skills/documents",
+          files: [
+            {
+              sourcePath: "skills/documents/pdf/SKILL.md",
+              relativePath: "pdf/SKILL.md"
+            }
+          ]
+        });
+      }
+
+      if (urlString === "https://raw.githubusercontent.com/owner/repo/main/skills/documents/pdf/SKILL.md") {
+        return new Response("# pdf", { status: 200 });
+      }
+
+      if (urlString.startsWith("https://api.github.com/repos/owner/repo/contents/")) {
+        throw new Error(`No deberia consultar contents API: ${urlString}`);
+      }
+
+      return new Response("not found", { status: 404 });
+    }) as typeof fetch;
+
+    await addSkills({
+      folder: "skills/documents",
+      repo: "owner/repo",
+      ref: "main",
+      cwd,
+      agentsDir: ".agents",
+      cloudeDir: ".cloude",
+      dryRun: false,
+      interactive: true
+    });
+
+    await expect(readFile(join(cwd, ".agents", "skills", "pdf", "SKILL.md"), "utf8")).resolves.toBe("# pdf");
+  });
+
   it("falla si .cloude/skills ya existe y no es link", async () => {
     const cwd = await mkdtemp(join(tmpdir(), "gq-skills-"));
     await mkdir(join(cwd, ".cloude", "skills"), { recursive: true });
@@ -456,6 +500,20 @@ describe("addSkills", () => {
 
     await expect(readFile(join(cwd, ".agents", "skills", "dotnet", "SKILL.md"), "utf8")).resolves.toBe("# dotnet");
     await expect(readFile(join(cwd, ".agents", "skills", "node", "SKILL.md"), "utf8")).resolves.toBe("# node");
+  });
+
+  it("genera manifiestos locales con el comando manifest", async () => {
+    const cwd = await mkdtemp(join(tmpdir(), "gq-skills-"));
+    await mkdir(join(cwd, "skills", "documents", "pdf"), { recursive: true });
+    await mkdir(join(cwd, "skills", "documents", "docx"), { recursive: true });
+    await writeFile(join(cwd, "skills", "documents", "pdf", "SKILL.md"), "# pdf");
+    await writeFile(join(cwd, "skills", "documents", "docx", "SKILL.md"), "# docx");
+
+    await main(["manifest", "--target", cwd]);
+
+    await expect(readFile(join(cwd, "skills", "gq-skills.json"), "utf8")).resolves.toContain('"folder": "skills"');
+    await expect(readFile(join(cwd, "skills", "documents", "gq-skills.json"), "utf8")).resolves.toContain('"relativePath": "pdf/SKILL.md"');
+    await expect(readFile(join(cwd, "skills", "documents", "pdf", "gq-skills.json"), "utf8")).resolves.toContain('"folder": "skills/documents/pdf"');
   });
 });
 

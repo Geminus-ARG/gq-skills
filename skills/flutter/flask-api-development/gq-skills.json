@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "folder": "skills/flutter/flask-api-development",
+  "files": [
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/application-factory-and-configuration.md",
+      "relativePath": "references/application-factory-and-configuration.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/authentication-and-jwt.md",
+      "relativePath": "references/authentication-and-jwt.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/blueprints-for-modular-api-design.md",
+      "relativePath": "references/blueprints-for-modular-api-design.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/database-models-with-sqlalchemy.md",
+      "relativePath": "references/database-models-with-sqlalchemy.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/flask-application-setup.md",
+      "relativePath": "references/flask-application-setup.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/request-validation.md",
+      "relativePath": "references/request-validation.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/scripts/validate-api.sh",
+      "relativePath": "scripts/validate-api.sh"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/SKILL.md",
+      "relativePath": "SKILL.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/templates/api-scaffold.yaml",
+      "relativePath": "templates/api-scaffold.yaml"
+    }
+  ]
+}

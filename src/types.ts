@@ -29,6 +29,18 @@ export type GithubFile = {
   downloadUrl: string;
 };
 
+export type SkillsManifestFile = {
+  sourcePath: string;
+  relativePath: string;
+};
+
+export type SkillsManifest = {
+  version: 1;
+  folder: string;
+  generatedAt?: string;
+  files: SkillsManifestFile[];
+};
+
 export type FileProgress = {
   index: number;
   total: number;
@@ -52,6 +64,11 @@ export type LoginOptions = {
   clientId: string;
   scope: string;
   openBrowser: boolean;
+};
+
+export type GenerateManifestOptions = {
+  folder: string;
+  cwd: string;
 };
 
 export type DeviceCodeResponse = {

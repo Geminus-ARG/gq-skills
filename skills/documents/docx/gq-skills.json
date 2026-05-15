@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "folder": "skills/documents/docx",
+  "files": [
+    {
+      "sourcePath": "skills/documents/docx/LICENSE.txt",
+      "relativePath": "LICENSE.txt"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/__init__.py",
+      "relativePath": "scripts/__init__.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/accept_changes.py",
+      "relativePath": "scripts/accept_changes.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/comment.py",
+      "relativePath": "scripts/comment.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/helpers/__init__.py",
+      "relativePath": "scripts/office/helpers/__init__.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/helpers/merge_runs.py",
+      "relativePath": "scripts/office/helpers/merge_runs.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/helpers/simplify_redlines.py",
+      "relativePath": "scripts/office/helpers/simplify_redlines.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/pack.py",
+      "relativePath": "scripts/office/pack.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+      "relativePath": "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+      "relativePath": "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+      "relativePath": "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+      "relativePath": "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "relativePath": "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/mce/mc.xsd",
+      "relativePath": "scripts/office/schemas/mce/mc.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "relativePath": "scripts/office/schemas/microsoft/wml-2010.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "relativePath": "scripts/office/schemas/microsoft/wml-2012.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "relativePath": "scripts/office/schemas/microsoft/wml-2018.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "relativePath": "scripts/office/schemas/microsoft/wml-cex-2018.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "relativePath": "scripts/office/schemas/microsoft/wml-cid-2016.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "relativePath": "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "relativePath": "scripts/office/schemas/microsoft/wml-symex-2015.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/soffice.py",
+      "relativePath": "scripts/office/soffice.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/unpack.py",
+      "relativePath": "scripts/office/unpack.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/validate.py",
+      "relativePath": "scripts/office/validate.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/validators/__init__.py",
+      "relativePath": "scripts/office/validators/__init__.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/validators/base.py",
+      "relativePath": "scripts/office/validators/base.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/validators/docx.py",
+      "relativePath": "scripts/office/validators/docx.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/validators/pptx.py",
+      "relativePath": "scripts/office/validators/pptx.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/validators/redlining.py",
+      "relativePath": "scripts/office/validators/redlining.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/templates/comments.xml",
+      "relativePath": "scripts/templates/comments.xml"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/templates/commentsExtended.xml",
+      "relativePath": "scripts/templates/commentsExtended.xml"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/templates/commentsExtensible.xml",
+      "relativePath": "scripts/templates/commentsExtensible.xml"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/templates/commentsIds.xml",
+      "relativePath": "scripts/templates/commentsIds.xml"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/templates/people.xml",
+      "relativePath": "scripts/templates/people.xml"
+    },
+    {
+      "sourcePath": "skills/documents/docx/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

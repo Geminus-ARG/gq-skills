@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "folder": "skills/documents/markdown-documentation",
+  "files": [
+    {
+      "sourcePath": "skills/documents/markdown-documentation/references/alerts-and-callouts.md",
+      "relativePath": "references/alerts-and-callouts.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/references/collapsible-sections.md",
+      "relativePath": "references/collapsible-sections.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/references/extended-syntax-github-flavored-markdown.md",
+      "relativePath": "references/extended-syntax-github-flavored-markdown.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/references/links-and-images.md",
+      "relativePath": "references/links-and-images.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/references/lists.md",
+      "relativePath": "references/lists.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/references/mermaid-diagrams.md",
+      "relativePath": "references/mermaid-diagrams.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/references/text-formatting.md",
+      "relativePath": "references/text-formatting.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/SKILL.md",
+      "relativePath": "SKILL.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/templates/doc-template.md",
+      "relativePath": "templates/doc-template.md"
+    }
+  ]
+}

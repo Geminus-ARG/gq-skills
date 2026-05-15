@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "folder": "skills/angular/angular-tooling",
+  "files": [
+    {
+      "sourcePath": "skills/angular/angular-tooling/references/tooling-patterns.md",
+      "relativePath": "references/tooling-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-tooling/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

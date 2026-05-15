@@ -2,8 +2,9 @@ import { resolve } from "node:path";
 import { DEFAULT_AGENTS_DIR, DEFAULT_AUTH_SCOPE, DEFAULT_CLOUDE_DIR, DEFAULT_REF, readDefaultRepo, readPackageVersion } from "./config.js";
 import { loginGithub, readStoredGithubToken } from "./github-auth.js";
 import { normalizeGithubPath, validateRepo } from "./path-utils.js";
+import { generateSkillManifests } from "./skills-manifest.js";
 import { addSkills } from "./skills-installation.js";
-import type { AddOptions, LoginOptions } from "./types.js";
+import type { AddOptions, GenerateManifestOptions, LoginOptions } from "./types.js";
 import { error, printHelp, printWelcome } from "./ui.js";
 
 /**
@@ -29,6 +30,12 @@ export async function main(argv = process.argv.slice(2)): Promise<void> {
     if (command === "login") {
       const options = parseLoginOptions(argv.slice(1));
       await loginGithub(options);
+      return;
+    }
+
+    if (command === "manifest") {
+      const options = parseManifestOptions(argv.slice(1));
+      await generateSkillManifests(options);
       return;
     }
 
@@ -114,6 +121,38 @@ async function parseAddOptions(args: string[]): Promise<AddOptions> {
   }
 
   validateRepo(options.repo);
+  return options;
+}
+
+function parseManifestOptions(args: string[]): GenerateManifestOptions {
+  const folderArg = args[0] && !args[0].startsWith("-") ? args[0] : "skills";
+  const options: GenerateManifestOptions = {
+    folder: normalizeGithubPath(folderArg),
+    cwd: process.cwd()
+  };
+
+  for (let index = folderArg === args[0] ? 1 : 0; index < args.length; index += 1) {
+    const arg = args[index];
+    const [flag, inlineValue] = arg.split("=", 2);
+    const value = inlineValue ?? args[index + 1];
+
+    if (flag === "--target" && !value) {
+      throw new Error("Falta valor para --target.");
+    }
+
+    switch (flag) {
+      case "--target":
+        options.cwd = resolve(value);
+        break;
+      default:
+        throw new Error(`Opcion desconocida: ${arg}`);
+    }
+
+    if (inlineValue === undefined) {
+      index += 1;
+    }
+  }
+
   return options;
 }
 

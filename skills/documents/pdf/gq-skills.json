@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "folder": "skills/documents/pdf",
+  "files": [
+    {
+      "sourcePath": "skills/documents/pdf/forms.md",
+      "relativePath": "forms.md"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/LICENSE.txt",
+      "relativePath": "LICENSE.txt"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/reference.md",
+      "relativePath": "reference.md"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/check_bounding_boxes.py",
+      "relativePath": "scripts/check_bounding_boxes.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/check_fillable_fields.py",
+      "relativePath": "scripts/check_fillable_fields.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/convert_pdf_to_images.py",
+      "relativePath": "scripts/convert_pdf_to_images.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/create_validation_image.py",
+      "relativePath": "scripts/create_validation_image.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/extract_form_field_info.py",
+      "relativePath": "scripts/extract_form_field_info.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/extract_form_structure.py",
+      "relativePath": "scripts/extract_form_structure.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/fill_fillable_fields.py",
+      "relativePath": "scripts/fill_fillable_fields.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/fill_pdf_form_with_annotations.py",
+      "relativePath": "scripts/fill_pdf_form_with_annotations.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

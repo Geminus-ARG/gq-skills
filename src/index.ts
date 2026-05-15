@@ -6,8 +6,9 @@ import { main } from "./cli.js";
 
 export { main } from "./cli.js";
 export { addSkills } from "./skills-installation.js";
+export { generateSkillManifests } from "./skills-manifest.js";
 export { formatProgressLine } from "./ui.js";
-export type { AddOptions, LoginOptions } from "./types.js";
+export type { AddOptions, GenerateManifestOptions, LoginOptions } from "./types.js";
 
 if (isDirectExecution()) {
   await main();

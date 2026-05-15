@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "folder": "skills/angular/angular-directives",
+  "files": [
+    {
+      "sourcePath": "skills/angular/angular-directives/references/directive-patterns.md",
+      "relativePath": "references/directive-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-directives/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

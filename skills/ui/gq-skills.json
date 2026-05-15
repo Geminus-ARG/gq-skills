@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "folder": "skills/ui",
+  "files": [
+    {
+      "sourcePath": "skills/ui/frontend-design/LICENSE.txt",
+      "relativePath": "frontend-design/LICENSE.txt"
+    },
+    {
+      "sourcePath": "skills/ui/frontend-design/SKILL.md",
+      "relativePath": "frontend-design/SKILL.md"
+    }
+  ]
+}

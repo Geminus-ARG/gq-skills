@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "folder": "skills/skills",
+  "files": [
+    {
+      "sourcePath": "skills/skills/skill-creator/agents/analyzer.md",
+      "relativePath": "skill-creator/agents/analyzer.md"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/agents/comparator.md",
+      "relativePath": "skill-creator/agents/comparator.md"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/agents/grader.md",
+      "relativePath": "skill-creator/agents/grader.md"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/assets/eval_review.html",
+      "relativePath": "skill-creator/assets/eval_review.html"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/eval-viewer/generate_review.py",
+      "relativePath": "skill-creator/eval-viewer/generate_review.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/eval-viewer/viewer.html",
+      "relativePath": "skill-creator/eval-viewer/viewer.html"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/LICENSE.txt",
+      "relativePath": "skill-creator/LICENSE.txt"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/references/schemas.md",
+      "relativePath": "skill-creator/references/schemas.md"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/__init__.py",
+      "relativePath": "skill-creator/scripts/__init__.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/aggregate_benchmark.py",
+      "relativePath": "skill-creator/scripts/aggregate_benchmark.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/generate_report.py",
+      "relativePath": "skill-creator/scripts/generate_report.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/improve_description.py",
+      "relativePath": "skill-creator/scripts/improve_description.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/package_skill.py",
+      "relativePath": "skill-creator/scripts/package_skill.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/quick_validate.py",
+      "relativePath": "skill-creator/scripts/quick_validate.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/run_eval.py",
+      "relativePath": "skill-creator/scripts/run_eval.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/run_loop.py",
+      "relativePath": "skill-creator/scripts/run_loop.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/utils.py",
+      "relativePath": "skill-creator/scripts/utils.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/SKILL.md",
+      "relativePath": "skill-creator/SKILL.md"
+    }
+  ]
+}

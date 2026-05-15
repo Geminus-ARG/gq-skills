@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "folder": "skills/angular/angular-testing",
+  "files": [
+    {
+      "sourcePath": "skills/angular/angular-testing/references/testing-patterns.md",
+      "relativePath": "references/testing-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-testing/references/vitest-migration.md",
+      "relativePath": "references/vitest-migration.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-testing/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

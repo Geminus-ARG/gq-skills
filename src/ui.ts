@@ -179,6 +179,7 @@ export function printHelp(): void {
 Uso:
   gq-skills login [opciones]
   gq-skills add <folder> [opciones]
+  gq-skills manifest [folder] [opciones]
 
 'add <folder>' busca por defecto dentro de 'skills/'.
 Usa '/ruta' para apuntar a otra carpeta del repo.
@@ -194,6 +195,10 @@ Opciones:
   --dry-run                 Muestra cambios sin escribir archivos.
   --no-interactive          Omite el selector y descarga todas las carpetas encontradas.
 
+Manifest:
+  'manifest' genera archivos 'gq-skills.json' para acelerar el discovery.
+  Si no se pasa carpeta, usa 'skills'.
+
 Seleccion interactiva:
   Si se encuentran varias carpetas de skills, el CLI muestra una lista con todas
   seleccionadas por defecto. Usa flechas arriba/abajo para moverte, espacio para
@@ -203,6 +208,7 @@ Ejemplo:
   gq-skills login --client-id <github-oauth-client-id>
   npx @geminus-qhom/gq-skills add documents --repo tu-org/gq-skills
   npx @geminus-qhom/gq-skills add /packs/backend --repo tu-org/gq-skills
+  gq-skills manifest
 `);
 }
 

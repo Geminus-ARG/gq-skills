@@ -8,6 +8,13 @@ El comando principal es:
 npx @geminus-qhom/gq-skills add <folder>
 ```
 
+Para acelerar el discovery y reducir llamadas al API de GitHub, el repositorio
+puede incluir archivos `gq-skills.json` generados con:
+
+```bash
+gq-skills manifest
+```
+
 Por defecto, `add <folder>` resuelve la ruta remota dentro de `skills/`.
 Por ejemplo, `add documents` busca `skills/documents`. Si quieres apuntar a
 otra carpeta del repositorio, usa un slash inicial: `add /packs/backend`.
@@ -191,6 +198,7 @@ Resultado local:
 
 ```bash
 gq-skills add <folder> [opciones]
+gq-skills manifest [folder] [opciones]
 
 <folder>                  Busca `skills/<folder>` por defecto. Usa `/ruta` para una ruta exacta del repo.
 --repo <owner/repo>       Repo GitHub origen. Tambien se puede usar GQ_SKILLS_REPO.
@@ -201,6 +209,11 @@ gq-skills add <folder> [opciones]
 --dry-run                 Muestra cambios sin escribir archivos.
 --no-interactive          Omite el selector y descarga todas las carpetas encontradas.
 ```
+
+`gq-skills manifest` recorre la carpeta local indicada, encuentra directorios
+que contienen skills y escribe un `gq-skills.json` con todos los archivos que
+se necesitan para mostrar o descargar ese contenido sin consultar
+recursivamente la GitHub Contents API. Si no se pasa carpeta, usa `skills/`.
 
 Cuando `add` detecta varias carpetas de skills, abre un selector interactivo en
 TTY con todas seleccionadas por defecto:

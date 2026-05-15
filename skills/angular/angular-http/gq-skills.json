@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "folder": "skills/angular/angular-http",
+  "files": [
+    {
+      "sourcePath": "skills/angular/angular-http/references/http-patterns.md",
+      "relativePath": "references/http-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-http/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

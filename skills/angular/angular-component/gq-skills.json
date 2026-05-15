@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "folder": "skills/angular/angular-component",
+  "files": [
+    {
+      "sourcePath": "skills/angular/angular-component/references/component-patterns.md",
+      "relativePath": "references/component-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-component/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

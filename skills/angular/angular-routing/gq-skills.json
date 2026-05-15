@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "folder": "skills/angular/angular-routing",
+  "files": [
+    {
+      "sourcePath": "skills/angular/angular-routing/references/routing-patterns.md",
+      "relativePath": "references/routing-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-routing/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

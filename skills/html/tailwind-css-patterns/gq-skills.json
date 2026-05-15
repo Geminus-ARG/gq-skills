@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "folder": "skills/html/tailwind-css-patterns",
+  "files": [
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/accessibility.md",
+      "relativePath": "references/accessibility.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/animations.md",
+      "relativePath": "references/animations.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/component-patterns.md",
+      "relativePath": "references/component-patterns.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/configuration.md",
+      "relativePath": "references/configuration.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/layout-patterns.md",
+      "relativePath": "references/layout-patterns.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/performance.md",
+      "relativePath": "references/performance.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/reference.md",
+      "relativePath": "references/reference.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/responsive-design.md",
+      "relativePath": "references/responsive-design.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

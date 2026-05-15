@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "folder": "skills/java",
+  "files": [
+    {
+      "sourcePath": "skills/java/java-coding-standards/SKILL.md",
+      "relativePath": "java-coding-standards/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/java/java-docs/SKILL.md",
+      "relativePath": "java-docs/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/java/java-springboot/SKILL.md",
+      "relativePath": "java-springboot/SKILL.md"
+    }
+  ]
+}

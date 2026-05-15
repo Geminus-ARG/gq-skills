@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "folder": "skills/angular/angular-forms",
+  "files": [
+    {
+      "sourcePath": "skills/angular/angular-forms/references/form-patterns.md",
+      "relativePath": "references/form-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-forms/references/formvalueControl-patterns.md",
+      "relativePath": "references/formvalueControl-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-forms/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

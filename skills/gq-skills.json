@@ -1,0 +1,1998 @@
+{
+  "version": 1,
+  "folder": "skills",
+  "files": [
+    {
+      "sourcePath": "skills/angular/angular-component/references/component-patterns.md",
+      "relativePath": "angular/angular-component/references/component-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-component/SKILL.md",
+      "relativePath": "angular/angular-component/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/angular-animations.md",
+      "relativePath": "angular/angular-developer/references/angular-animations.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/angular-aria.md",
+      "relativePath": "angular/angular-developer/references/angular-aria.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/cli.md",
+      "relativePath": "angular/angular-developer/references/cli.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/component-harnesses.md",
+      "relativePath": "angular/angular-developer/references/component-harnesses.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/component-styling.md",
+      "relativePath": "angular/angular-developer/references/component-styling.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/components.md",
+      "relativePath": "angular/angular-developer/references/components.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/creating-services.md",
+      "relativePath": "angular/angular-developer/references/creating-services.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/data-resolvers.md",
+      "relativePath": "angular/angular-developer/references/data-resolvers.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/define-routes.md",
+      "relativePath": "angular/angular-developer/references/define-routes.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/defining-providers.md",
+      "relativePath": "angular/angular-developer/references/defining-providers.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/di-fundamentals.md",
+      "relativePath": "angular/angular-developer/references/di-fundamentals.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/e2e-testing.md",
+      "relativePath": "angular/angular-developer/references/e2e-testing.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/effects.md",
+      "relativePath": "angular/angular-developer/references/effects.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/hierarchical-injectors.md",
+      "relativePath": "angular/angular-developer/references/hierarchical-injectors.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/host-elements.md",
+      "relativePath": "angular/angular-developer/references/host-elements.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/injection-context.md",
+      "relativePath": "angular/angular-developer/references/injection-context.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/inputs.md",
+      "relativePath": "angular/angular-developer/references/inputs.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/linked-signal.md",
+      "relativePath": "angular/angular-developer/references/linked-signal.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/loading-strategies.md",
+      "relativePath": "angular/angular-developer/references/loading-strategies.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/mcp.md",
+      "relativePath": "angular/angular-developer/references/mcp.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/migrations.md",
+      "relativePath": "angular/angular-developer/references/migrations.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/navigate-to-routes.md",
+      "relativePath": "angular/angular-developer/references/navigate-to-routes.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/outputs.md",
+      "relativePath": "angular/angular-developer/references/outputs.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/reactive-forms.md",
+      "relativePath": "angular/angular-developer/references/reactive-forms.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/rendering-strategies.md",
+      "relativePath": "angular/angular-developer/references/rendering-strategies.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/resource.md",
+      "relativePath": "angular/angular-developer/references/resource.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/route-animations.md",
+      "relativePath": "angular/angular-developer/references/route-animations.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/route-guards.md",
+      "relativePath": "angular/angular-developer/references/route-guards.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/router-lifecycle.md",
+      "relativePath": "angular/angular-developer/references/router-lifecycle.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/router-testing.md",
+      "relativePath": "angular/angular-developer/references/router-testing.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/show-routes-with-outlets.md",
+      "relativePath": "angular/angular-developer/references/show-routes-with-outlets.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/signal-forms.md",
+      "relativePath": "angular/angular-developer/references/signal-forms.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/signals-overview.md",
+      "relativePath": "angular/angular-developer/references/signals-overview.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/tailwind-css.md",
+      "relativePath": "angular/angular-developer/references/tailwind-css.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/template-driven-forms.md",
+      "relativePath": "angular/angular-developer/references/template-driven-forms.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/testing-fundamentals.md",
+      "relativePath": "angular/angular-developer/references/testing-fundamentals.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/SKILL.md",
+      "relativePath": "angular/angular-developer/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-di/references/di-patterns.md",
+      "relativePath": "angular/angular-di/references/di-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-di/SKILL.md",
+      "relativePath": "angular/angular-di/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-directives/references/directive-patterns.md",
+      "relativePath": "angular/angular-directives/references/directive-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-directives/SKILL.md",
+      "relativePath": "angular/angular-directives/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-forms/references/form-patterns.md",
+      "relativePath": "angular/angular-forms/references/form-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-forms/references/formvalueControl-patterns.md",
+      "relativePath": "angular/angular-forms/references/formvalueControl-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-forms/SKILL.md",
+      "relativePath": "angular/angular-forms/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-http/references/http-patterns.md",
+      "relativePath": "angular/angular-http/references/http-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-http/SKILL.md",
+      "relativePath": "angular/angular-http/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-new-app/SKILL.md",
+      "relativePath": "angular/angular-new-app/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-routing/references/routing-patterns.md",
+      "relativePath": "angular/angular-routing/references/routing-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-routing/SKILL.md",
+      "relativePath": "angular/angular-routing/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-signals/references/signal-patterns.md",
+      "relativePath": "angular/angular-signals/references/signal-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-signals/SKILL.md",
+      "relativePath": "angular/angular-signals/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-ssr/references/ssr-patterns.md",
+      "relativePath": "angular/angular-ssr/references/ssr-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-ssr/SKILL.md",
+      "relativePath": "angular/angular-ssr/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-testing/references/testing-patterns.md",
+      "relativePath": "angular/angular-testing/references/testing-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-testing/references/vitest-migration.md",
+      "relativePath": "angular/angular-testing/references/vitest-migration.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-testing/SKILL.md",
+      "relativePath": "angular/angular-testing/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-tooling/references/tooling-patterns.md",
+      "relativePath": "angular/angular-tooling/references/tooling-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-tooling/SKILL.md",
+      "relativePath": "angular/angular-tooling/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/csharp-async/SKILL.md",
+      "relativePath": "csharp/csharp-async/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/csharp-docs/SKILL.md",
+      "relativePath": "csharp/csharp-docs/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/csharp-mstest/SKILL.md",
+      "relativePath": "csharp/csharp-mstest/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/csharp-nunit/SKILL.md",
+      "relativePath": "csharp/csharp-nunit/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/csharp-tunit/SKILL.md",
+      "relativePath": "csharp/csharp-tunit/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/csharp-xunit/SKILL.md",
+      "relativePath": "csharp/csharp-xunit/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/dotnet-best-practices/SKILL.md",
+      "relativePath": "csharp/dotnet-best-practices/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/dotnet-design-pattern-review/SKILL.md",
+      "relativePath": "csharp/dotnet-design-pattern-review/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/dotnet-upgrade/SKILL.md",
+      "relativePath": "csharp/dotnet-upgrade/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/documents/docx/LICENSE.txt",
+      "relativePath": "documents/docx/LICENSE.txt"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/__init__.py",
+      "relativePath": "documents/docx/scripts/__init__.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/accept_changes.py",
+      "relativePath": "documents/docx/scripts/accept_changes.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/comment.py",
+      "relativePath": "documents/docx/scripts/comment.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/helpers/__init__.py",
+      "relativePath": "documents/docx/scripts/office/helpers/__init__.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/helpers/merge_runs.py",
+      "relativePath": "documents/docx/scripts/office/helpers/merge_runs.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/helpers/simplify_redlines.py",
+      "relativePath": "documents/docx/scripts/office/helpers/simplify_redlines.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/pack.py",
+      "relativePath": "documents/docx/scripts/office/pack.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/mce/mc.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/mce/mc.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/microsoft/wml-2010.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/microsoft/wml-2012.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/microsoft/wml-2018.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/microsoft/wml-cex-2018.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/microsoft/wml-cid-2016.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "relativePath": "documents/docx/scripts/office/schemas/microsoft/wml-symex-2015.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/soffice.py",
+      "relativePath": "documents/docx/scripts/office/soffice.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/unpack.py",
+      "relativePath": "documents/docx/scripts/office/unpack.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/validate.py",
+      "relativePath": "documents/docx/scripts/office/validate.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/validators/__init__.py",
+      "relativePath": "documents/docx/scripts/office/validators/__init__.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/validators/base.py",
+      "relativePath": "documents/docx/scripts/office/validators/base.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/validators/docx.py",
+      "relativePath": "documents/docx/scripts/office/validators/docx.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/validators/pptx.py",
+      "relativePath": "documents/docx/scripts/office/validators/pptx.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/office/validators/redlining.py",
+      "relativePath": "documents/docx/scripts/office/validators/redlining.py"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/templates/comments.xml",
+      "relativePath": "documents/docx/scripts/templates/comments.xml"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/templates/commentsExtended.xml",
+      "relativePath": "documents/docx/scripts/templates/commentsExtended.xml"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/templates/commentsExtensible.xml",
+      "relativePath": "documents/docx/scripts/templates/commentsExtensible.xml"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/templates/commentsIds.xml",
+      "relativePath": "documents/docx/scripts/templates/commentsIds.xml"
+    },
+    {
+      "sourcePath": "skills/documents/docx/scripts/templates/people.xml",
+      "relativePath": "documents/docx/scripts/templates/people.xml"
+    },
+    {
+      "sourcePath": "skills/documents/docx/SKILL.md",
+      "relativePath": "documents/docx/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/references/alerts-and-callouts.md",
+      "relativePath": "documents/markdown-documentation/references/alerts-and-callouts.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/references/collapsible-sections.md",
+      "relativePath": "documents/markdown-documentation/references/collapsible-sections.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/references/extended-syntax-github-flavored-markdown.md",
+      "relativePath": "documents/markdown-documentation/references/extended-syntax-github-flavored-markdown.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/references/links-and-images.md",
+      "relativePath": "documents/markdown-documentation/references/links-and-images.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/references/lists.md",
+      "relativePath": "documents/markdown-documentation/references/lists.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/references/mermaid-diagrams.md",
+      "relativePath": "documents/markdown-documentation/references/mermaid-diagrams.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/references/text-formatting.md",
+      "relativePath": "documents/markdown-documentation/references/text-formatting.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/SKILL.md",
+      "relativePath": "documents/markdown-documentation/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/documents/markdown-documentation/templates/doc-template.md",
+      "relativePath": "documents/markdown-documentation/templates/doc-template.md"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/forms.md",
+      "relativePath": "documents/pdf/forms.md"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/LICENSE.txt",
+      "relativePath": "documents/pdf/LICENSE.txt"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/reference.md",
+      "relativePath": "documents/pdf/reference.md"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/check_bounding_boxes.py",
+      "relativePath": "documents/pdf/scripts/check_bounding_boxes.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/check_fillable_fields.py",
+      "relativePath": "documents/pdf/scripts/check_fillable_fields.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/convert_pdf_to_images.py",
+      "relativePath": "documents/pdf/scripts/convert_pdf_to_images.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/create_validation_image.py",
+      "relativePath": "documents/pdf/scripts/create_validation_image.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/extract_form_field_info.py",
+      "relativePath": "documents/pdf/scripts/extract_form_field_info.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/extract_form_structure.py",
+      "relativePath": "documents/pdf/scripts/extract_form_structure.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/fill_fillable_fields.py",
+      "relativePath": "documents/pdf/scripts/fill_fillable_fields.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/scripts/fill_pdf_form_with_annotations.py",
+      "relativePath": "documents/pdf/scripts/fill_pdf_form_with_annotations.py"
+    },
+    {
+      "sourcePath": "skills/documents/pdf/SKILL.md",
+      "relativePath": "documents/pdf/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/editing.md",
+      "relativePath": "documents/pptx/editing.md"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/LICENSE.txt",
+      "relativePath": "documents/pptx/LICENSE.txt"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/pptxgenjs.md",
+      "relativePath": "documents/pptx/pptxgenjs.md"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/__init__.py",
+      "relativePath": "documents/pptx/scripts/__init__.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/add_slide.py",
+      "relativePath": "documents/pptx/scripts/add_slide.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/clean.py",
+      "relativePath": "documents/pptx/scripts/clean.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/helpers/__init__.py",
+      "relativePath": "documents/pptx/scripts/office/helpers/__init__.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/helpers/merge_runs.py",
+      "relativePath": "documents/pptx/scripts/office/helpers/merge_runs.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/helpers/simplify_redlines.py",
+      "relativePath": "documents/pptx/scripts/office/helpers/simplify_redlines.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/pack.py",
+      "relativePath": "documents/pptx/scripts/office/pack.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/mce/mc.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/mce/mc.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/microsoft/wml-2010.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/microsoft/wml-2012.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/microsoft/wml-2018.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/microsoft/wml-cex-2018.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/microsoft/wml-cid-2016.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "relativePath": "documents/pptx/scripts/office/schemas/microsoft/wml-symex-2015.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/soffice.py",
+      "relativePath": "documents/pptx/scripts/office/soffice.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/unpack.py",
+      "relativePath": "documents/pptx/scripts/office/unpack.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/validate.py",
+      "relativePath": "documents/pptx/scripts/office/validate.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/validators/__init__.py",
+      "relativePath": "documents/pptx/scripts/office/validators/__init__.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/validators/base.py",
+      "relativePath": "documents/pptx/scripts/office/validators/base.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/validators/docx.py",
+      "relativePath": "documents/pptx/scripts/office/validators/docx.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/validators/pptx.py",
+      "relativePath": "documents/pptx/scripts/office/validators/pptx.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/office/validators/redlining.py",
+      "relativePath": "documents/pptx/scripts/office/validators/redlining.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/scripts/thumbnail.py",
+      "relativePath": "documents/pptx/scripts/thumbnail.py"
+    },
+    {
+      "sourcePath": "skills/documents/pptx/SKILL.md",
+      "relativePath": "documents/pptx/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/LICENSE.txt",
+      "relativePath": "documents/xlsx/LICENSE.txt"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/helpers/__init__.py",
+      "relativePath": "documents/xlsx/scripts/office/helpers/__init__.py"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/helpers/merge_runs.py",
+      "relativePath": "documents/xlsx/scripts/office/helpers/merge_runs.py"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/helpers/simplify_redlines.py",
+      "relativePath": "documents/xlsx/scripts/office/helpers/simplify_redlines.py"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/pack.py",
+      "relativePath": "documents/xlsx/scripts/office/pack.py"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/mce/mc.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/mce/mc.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/microsoft/wml-2010.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/microsoft/wml-2012.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/microsoft/wml-2018.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/microsoft/wml-cex-2018.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/microsoft/wml-cid-2016.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "relativePath": "documents/xlsx/scripts/office/schemas/microsoft/wml-symex-2015.xsd"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/soffice.py",
+      "relativePath": "documents/xlsx/scripts/office/soffice.py"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/unpack.py",
+      "relativePath": "documents/xlsx/scripts/office/unpack.py"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/validate.py",
+      "relativePath": "documents/xlsx/scripts/office/validate.py"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/validators/__init__.py",
+      "relativePath": "documents/xlsx/scripts/office/validators/__init__.py"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/validators/base.py",
+      "relativePath": "documents/xlsx/scripts/office/validators/base.py"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/validators/docx.py",
+      "relativePath": "documents/xlsx/scripts/office/validators/docx.py"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/validators/pptx.py",
+      "relativePath": "documents/xlsx/scripts/office/validators/pptx.py"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/office/validators/redlining.py",
+      "relativePath": "documents/xlsx/scripts/office/validators/redlining.py"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/scripts/recalc.py",
+      "relativePath": "documents/xlsx/scripts/recalc.py"
+    },
+    {
+      "sourcePath": "skills/documents/xlsx/SKILL.md",
+      "relativePath": "documents/xlsx/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/application-factory-and-configuration.md",
+      "relativePath": "flutter/flask-api-development/references/application-factory-and-configuration.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/authentication-and-jwt.md",
+      "relativePath": "flutter/flask-api-development/references/authentication-and-jwt.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/blueprints-for-modular-api-design.md",
+      "relativePath": "flutter/flask-api-development/references/blueprints-for-modular-api-design.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/database-models-with-sqlalchemy.md",
+      "relativePath": "flutter/flask-api-development/references/database-models-with-sqlalchemy.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/flask-application-setup.md",
+      "relativePath": "flutter/flask-api-development/references/flask-application-setup.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/request-validation.md",
+      "relativePath": "flutter/flask-api-development/references/request-validation.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/scripts/validate-api.sh",
+      "relativePath": "flutter/flask-api-development/scripts/validate-api.sh"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/SKILL.md",
+      "relativePath": "flutter/flask-api-development/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/templates/api-scaffold.yaml",
+      "relativePath": "flutter/flask-api-development/templates/api-scaffold.yaml"
+    },
+    {
+      "sourcePath": "skills/flutter/fluentui-blazor/references/DATAGRID.md",
+      "relativePath": "flutter/fluentui-blazor/references/DATAGRID.md"
+    },
+    {
+      "sourcePath": "skills/flutter/fluentui-blazor/references/LAYOUT-AND-NAVIGATION.md",
+      "relativePath": "flutter/fluentui-blazor/references/LAYOUT-AND-NAVIGATION.md"
+    },
+    {
+      "sourcePath": "skills/flutter/fluentui-blazor/references/SETUP.md",
+      "relativePath": "flutter/fluentui-blazor/references/SETUP.md"
+    },
+    {
+      "sourcePath": "skills/flutter/fluentui-blazor/references/THEMING.md",
+      "relativePath": "flutter/fluentui-blazor/references/THEMING.md"
+    },
+    {
+      "sourcePath": "skills/flutter/fluentui-blazor/SKILL.md",
+      "relativePath": "flutter/fluentui-blazor/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/assets/templates/explicit_animation.dart",
+      "relativePath": "flutter/flutter-animations/assets/templates/explicit_animation.dart"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/assets/templates/hero_transition.dart",
+      "relativePath": "flutter/flutter-animations/assets/templates/hero_transition.dart"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/assets/templates/implicit_animation.dart",
+      "relativePath": "flutter/flutter-animations/assets/templates/implicit_animation.dart"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/assets/templates/staggered_animation.dart",
+      "relativePath": "flutter/flutter-animations/assets/templates/staggered_animation.dart"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/curves.md",
+      "relativePath": "flutter/flutter-animations/references/curves.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/explicit.md",
+      "relativePath": "flutter/flutter-animations/references/explicit.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/hero.md",
+      "relativePath": "flutter/flutter-animations/references/hero.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/implicit.md",
+      "relativePath": "flutter/flutter-animations/references/implicit.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/physics.md",
+      "relativePath": "flutter/flutter-animations/references/physics.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/staggered.md",
+      "relativePath": "flutter/flutter-animations/references/staggered.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/SKILL.md",
+      "relativePath": "flutter/flutter-animations/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/bloc-state.md",
+      "relativePath": "flutter/flutter-expert/references/bloc-state.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/gorouter-navigation.md",
+      "relativePath": "flutter/flutter-expert/references/gorouter-navigation.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/performance.md",
+      "relativePath": "flutter/flutter-expert/references/performance.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/project-structure.md",
+      "relativePath": "flutter/flutter-expert/references/project-structure.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/riverpod-state.md",
+      "relativePath": "flutter/flutter-expert/references/riverpod-state.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/widget-patterns.md",
+      "relativePath": "flutter/flutter-expert/references/widget-patterns.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/SKILL.md",
+      "relativePath": "flutter/flutter-expert/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/common-errors.md",
+      "relativePath": "flutter/flutter-testing/references/common-errors.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/integration-testing.md",
+      "relativePath": "flutter/flutter-testing/references/integration-testing.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/mocking.md",
+      "relativePath": "flutter/flutter-testing/references/mocking.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/plugin-testing.md",
+      "relativePath": "flutter/flutter-testing/references/plugin-testing.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/unit-testing.md",
+      "relativePath": "flutter/flutter-testing/references/unit-testing.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/widget-testing.md",
+      "relativePath": "flutter/flutter-testing/references/widget-testing.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/scripts/verify-examples.sh",
+      "relativePath": "flutter/flutter-testing/scripts/verify-examples.sh"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/SKILL.md",
+      "relativePath": "flutter/flutter-testing/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/html/css/SKILL.md",
+      "relativePath": "html/css/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/html/html/SKILL.md",
+      "relativePath": "html/html/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/html/seo/SKILL.md",
+      "relativePath": "html/seo/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/accessibility.md",
+      "relativePath": "html/tailwind-css-patterns/references/accessibility.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/animations.md",
+      "relativePath": "html/tailwind-css-patterns/references/animations.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/component-patterns.md",
+      "relativePath": "html/tailwind-css-patterns/references/component-patterns.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/configuration.md",
+      "relativePath": "html/tailwind-css-patterns/references/configuration.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/layout-patterns.md",
+      "relativePath": "html/tailwind-css-patterns/references/layout-patterns.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/performance.md",
+      "relativePath": "html/tailwind-css-patterns/references/performance.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/reference.md",
+      "relativePath": "html/tailwind-css-patterns/references/reference.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/references/responsive-design.md",
+      "relativePath": "html/tailwind-css-patterns/references/responsive-design.md"
+    },
+    {
+      "sourcePath": "skills/html/tailwind-css-patterns/SKILL.md",
+      "relativePath": "html/tailwind-css-patterns/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/java/java-coding-standards/SKILL.md",
+      "relativePath": "java/java-coding-standards/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/java/java-docs/SKILL.md",
+      "relativePath": "java/java-docs/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/java/java-springboot/SKILL.md",
+      "relativePath": "java/java-springboot/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/async-patterns.md",
+      "relativePath": "nextjs/next-best-practices/async-patterns.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/bundling.md",
+      "relativePath": "nextjs/next-best-practices/bundling.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/data-patterns.md",
+      "relativePath": "nextjs/next-best-practices/data-patterns.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/debug-tricks.md",
+      "relativePath": "nextjs/next-best-practices/debug-tricks.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/directives.md",
+      "relativePath": "nextjs/next-best-practices/directives.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/error-handling.md",
+      "relativePath": "nextjs/next-best-practices/error-handling.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/file-conventions.md",
+      "relativePath": "nextjs/next-best-practices/file-conventions.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/font.md",
+      "relativePath": "nextjs/next-best-practices/font.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/functions.md",
+      "relativePath": "nextjs/next-best-practices/functions.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/hydration-error.md",
+      "relativePath": "nextjs/next-best-practices/hydration-error.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/image.md",
+      "relativePath": "nextjs/next-best-practices/image.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/metadata.md",
+      "relativePath": "nextjs/next-best-practices/metadata.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/parallel-routes.md",
+      "relativePath": "nextjs/next-best-practices/parallel-routes.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/route-handlers.md",
+      "relativePath": "nextjs/next-best-practices/route-handlers.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/rsc-boundaries.md",
+      "relativePath": "nextjs/next-best-practices/rsc-boundaries.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/runtime-selection.md",
+      "relativePath": "nextjs/next-best-practices/runtime-selection.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/scripts.md",
+      "relativePath": "nextjs/next-best-practices/scripts.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/self-hosting.md",
+      "relativePath": "nextjs/next-best-practices/self-hosting.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/SKILL.md",
+      "relativePath": "nextjs/next-best-practices/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/suspense-boundaries.md",
+      "relativePath": "nextjs/next-best-practices/suspense-boundaries.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-cache-components/SKILL.md",
+      "relativePath": "nextjs/next-cache-components/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-upgrade/SKILL.md",
+      "relativePath": "nextjs/next-upgrade/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-backend-patterns/references/advanced-patterns.md",
+      "relativePath": "node/nodejs-backend-patterns/references/advanced-patterns.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-backend-patterns/SKILL.md",
+      "relativePath": "node/nodejs-backend-patterns/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-best-practices/SKILL.md",
+      "relativePath": "node/nodejs-best-practices/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/authentication-with-jwt.md",
+      "relativePath": "node/nodejs-express-server/references/authentication-with-jwt.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/basic-express-setup.md",
+      "relativePath": "node/nodejs-express-server/references/basic-express-setup.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/database-integration-postgresql-with-sequelize.md",
+      "relativePath": "node/nodejs-express-server/references/database-integration-postgresql-with-sequelize.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/environment-configuration.md",
+      "relativePath": "node/nodejs-express-server/references/environment-configuration.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/error-handling-middleware.md",
+      "relativePath": "node/nodejs-express-server/references/error-handling-middleware.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/middleware-chain-implementation.md",
+      "relativePath": "node/nodejs-express-server/references/middleware-chain-implementation.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/restful-routes-with-crud-operations.md",
+      "relativePath": "node/nodejs-express-server/references/restful-routes-with-crud-operations.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/scripts/security-checklist.sh",
+      "relativePath": "node/nodejs-express-server/scripts/security-checklist.sh"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/SKILL.md",
+      "relativePath": "node/nodejs-express-server/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/AGENTS.md",
+      "relativePath": "react/react-best-practices/AGENTS.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/metadata.json",
+      "relativePath": "react/react-best-practices/metadata.json"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/README.md",
+      "relativePath": "react/react-best-practices/README.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/_sections.md",
+      "relativePath": "react/react-best-practices/rules/_sections.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/_template.md",
+      "relativePath": "react/react-best-practices/rules/_template.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/advanced-effect-event-deps.md",
+      "relativePath": "react/react-best-practices/rules/advanced-effect-event-deps.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/advanced-event-handler-refs.md",
+      "relativePath": "react/react-best-practices/rules/advanced-event-handler-refs.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/advanced-init-once.md",
+      "relativePath": "react/react-best-practices/rules/advanced-init-once.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/advanced-use-latest.md",
+      "relativePath": "react/react-best-practices/rules/advanced-use-latest.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/async-api-routes.md",
+      "relativePath": "react/react-best-practices/rules/async-api-routes.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/async-cheap-condition-before-await.md",
+      "relativePath": "react/react-best-practices/rules/async-cheap-condition-before-await.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/async-defer-await.md",
+      "relativePath": "react/react-best-practices/rules/async-defer-await.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/async-dependencies.md",
+      "relativePath": "react/react-best-practices/rules/async-dependencies.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/async-parallel.md",
+      "relativePath": "react/react-best-practices/rules/async-parallel.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/async-suspense-boundaries.md",
+      "relativePath": "react/react-best-practices/rules/async-suspense-boundaries.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/bundle-analyzable-paths.md",
+      "relativePath": "react/react-best-practices/rules/bundle-analyzable-paths.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/bundle-barrel-imports.md",
+      "relativePath": "react/react-best-practices/rules/bundle-barrel-imports.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/bundle-conditional.md",
+      "relativePath": "react/react-best-practices/rules/bundle-conditional.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/bundle-defer-third-party.md",
+      "relativePath": "react/react-best-practices/rules/bundle-defer-third-party.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/bundle-dynamic-imports.md",
+      "relativePath": "react/react-best-practices/rules/bundle-dynamic-imports.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/bundle-preload.md",
+      "relativePath": "react/react-best-practices/rules/bundle-preload.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/client-event-listeners.md",
+      "relativePath": "react/react-best-practices/rules/client-event-listeners.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/client-localstorage-schema.md",
+      "relativePath": "react/react-best-practices/rules/client-localstorage-schema.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/client-passive-event-listeners.md",
+      "relativePath": "react/react-best-practices/rules/client-passive-event-listeners.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/client-swr-dedup.md",
+      "relativePath": "react/react-best-practices/rules/client-swr-dedup.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-batch-dom-css.md",
+      "relativePath": "react/react-best-practices/rules/js-batch-dom-css.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-cache-function-results.md",
+      "relativePath": "react/react-best-practices/rules/js-cache-function-results.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-cache-property-access.md",
+      "relativePath": "react/react-best-practices/rules/js-cache-property-access.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-cache-storage.md",
+      "relativePath": "react/react-best-practices/rules/js-cache-storage.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-combine-iterations.md",
+      "relativePath": "react/react-best-practices/rules/js-combine-iterations.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-early-exit.md",
+      "relativePath": "react/react-best-practices/rules/js-early-exit.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-flatmap-filter.md",
+      "relativePath": "react/react-best-practices/rules/js-flatmap-filter.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-hoist-regexp.md",
+      "relativePath": "react/react-best-practices/rules/js-hoist-regexp.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-index-maps.md",
+      "relativePath": "react/react-best-practices/rules/js-index-maps.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-length-check-first.md",
+      "relativePath": "react/react-best-practices/rules/js-length-check-first.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-min-max-loop.md",
+      "relativePath": "react/react-best-practices/rules/js-min-max-loop.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-request-idle-callback.md",
+      "relativePath": "react/react-best-practices/rules/js-request-idle-callback.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-set-map-lookups.md",
+      "relativePath": "react/react-best-practices/rules/js-set-map-lookups.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-tosorted-immutable.md",
+      "relativePath": "react/react-best-practices/rules/js-tosorted-immutable.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-activity.md",
+      "relativePath": "react/react-best-practices/rules/rendering-activity.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-animate-svg-wrapper.md",
+      "relativePath": "react/react-best-practices/rules/rendering-animate-svg-wrapper.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-conditional-render.md",
+      "relativePath": "react/react-best-practices/rules/rendering-conditional-render.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-content-visibility.md",
+      "relativePath": "react/react-best-practices/rules/rendering-content-visibility.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-hoist-jsx.md",
+      "relativePath": "react/react-best-practices/rules/rendering-hoist-jsx.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-hydration-no-flicker.md",
+      "relativePath": "react/react-best-practices/rules/rendering-hydration-no-flicker.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-hydration-suppress-warning.md",
+      "relativePath": "react/react-best-practices/rules/rendering-hydration-suppress-warning.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-resource-hints.md",
+      "relativePath": "react/react-best-practices/rules/rendering-resource-hints.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-script-defer-async.md",
+      "relativePath": "react/react-best-practices/rules/rendering-script-defer-async.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-svg-precision.md",
+      "relativePath": "react/react-best-practices/rules/rendering-svg-precision.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-usetransition-loading.md",
+      "relativePath": "react/react-best-practices/rules/rendering-usetransition-loading.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-defer-reads.md",
+      "relativePath": "react/react-best-practices/rules/rerender-defer-reads.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-dependencies.md",
+      "relativePath": "react/react-best-practices/rules/rerender-dependencies.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-derived-state-no-effect.md",
+      "relativePath": "react/react-best-practices/rules/rerender-derived-state-no-effect.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-derived-state.md",
+      "relativePath": "react/react-best-practices/rules/rerender-derived-state.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-functional-setstate.md",
+      "relativePath": "react/react-best-practices/rules/rerender-functional-setstate.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-lazy-state-init.md",
+      "relativePath": "react/react-best-practices/rules/rerender-lazy-state-init.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-memo-with-default-value.md",
+      "relativePath": "react/react-best-practices/rules/rerender-memo-with-default-value.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-memo.md",
+      "relativePath": "react/react-best-practices/rules/rerender-memo.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-move-effect-to-event.md",
+      "relativePath": "react/react-best-practices/rules/rerender-move-effect-to-event.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-no-inline-components.md",
+      "relativePath": "react/react-best-practices/rules/rerender-no-inline-components.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-simple-expression-in-memo.md",
+      "relativePath": "react/react-best-practices/rules/rerender-simple-expression-in-memo.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-split-combined-hooks.md",
+      "relativePath": "react/react-best-practices/rules/rerender-split-combined-hooks.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-transitions.md",
+      "relativePath": "react/react-best-practices/rules/rerender-transitions.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-use-deferred-value.md",
+      "relativePath": "react/react-best-practices/rules/rerender-use-deferred-value.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-use-ref-transient-values.md",
+      "relativePath": "react/react-best-practices/rules/rerender-use-ref-transient-values.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-after-nonblocking.md",
+      "relativePath": "react/react-best-practices/rules/server-after-nonblocking.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-auth-actions.md",
+      "relativePath": "react/react-best-practices/rules/server-auth-actions.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-cache-lru.md",
+      "relativePath": "react/react-best-practices/rules/server-cache-lru.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-cache-react.md",
+      "relativePath": "react/react-best-practices/rules/server-cache-react.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-dedup-props.md",
+      "relativePath": "react/react-best-practices/rules/server-dedup-props.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-hoist-static-io.md",
+      "relativePath": "react/react-best-practices/rules/server-hoist-static-io.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-no-shared-module-state.md",
+      "relativePath": "react/react-best-practices/rules/server-no-shared-module-state.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-parallel-fetching.md",
+      "relativePath": "react/react-best-practices/rules/server-parallel-fetching.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-parallel-nested-fetching.md",
+      "relativePath": "react/react-best-practices/rules/server-parallel-nested-fetching.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-serialization.md",
+      "relativePath": "react/react-best-practices/rules/server-serialization.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/SKILL.md",
+      "relativePath": "react/react-best-practices/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/AGENTS.md",
+      "relativePath": "react/react-hook-form/AGENTS.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/assets/templates/_template.md",
+      "relativePath": "react/react-hook-form/assets/templates/_template.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/metadata.json",
+      "relativePath": "react/react-hook-form/metadata.json"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/README.md",
+      "relativePath": "react/react-hook-form/README.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/_sections.md",
+      "relativePath": "react/react-hook-form/references/_sections.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/adv-devtools-performance.md",
+      "relativePath": "react/react-hook-form/references/adv-devtools-performance.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/adv-formprovider-memo.md",
+      "relativePath": "react/react-hook-form/references/adv-formprovider-memo.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/adv-testing-wrapper.md",
+      "relativePath": "react/react-hook-form/references/adv-testing-wrapper.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-complete-default-objects.md",
+      "relativePath": "react/react-hook-form/references/array-complete-default-objects.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-separate-crud-operations.md",
+      "relativePath": "react/react-hook-form/references/array-separate-crud-operations.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-unique-fieldarray-per-name.md",
+      "relativePath": "react/react-hook-form/references/array-unique-fieldarray-per-name.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-use-field-id-as-key.md",
+      "relativePath": "react/react-hook-form/references/array-use-field-id-as-key.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-virtualization-formprovider.md",
+      "relativePath": "react/react-hook-form/references/array-virtualization-formprovider.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-avoid-double-registration.md",
+      "relativePath": "react/react-hook-form/references/ctrl-avoid-double-registration.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-controller-field-props.md",
+      "relativePath": "react/react-hook-form/references/ctrl-controller-field-props.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-local-state-combination.md",
+      "relativePath": "react/react-hook-form/references/ctrl-local-state-combination.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-single-usecontroller-per-component.md",
+      "relativePath": "react/react-hook-form/references/ctrl-single-usecontroller-per-component.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-usecontroller-isolation.md",
+      "relativePath": "react/react-hook-form/references/ctrl-usecontroller-isolation.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-async-default-values.md",
+      "relativePath": "react/react-hook-form/references/formcfg-async-default-values.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-default-values.md",
+      "relativePath": "react/react-hook-form/references/formcfg-default-values.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-revalidate-mode.md",
+      "relativePath": "react/react-hook-form/references/formcfg-revalidate-mode.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-should-unregister.md",
+      "relativePath": "react/react-hook-form/references/formcfg-should-unregister.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-useeffect-dependency.md",
+      "relativePath": "react/react-hook-form/references/formcfg-useeffect-dependency.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-validation-mode.md",
+      "relativePath": "react/react-hook-form/references/formcfg-validation-mode.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-avoid-isvalid-with-onsubmit.md",
+      "relativePath": "react/react-hook-form/references/formstate-avoid-isvalid-with-onsubmit.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-destructure-formstate.md",
+      "relativePath": "react/react-hook-form/references/formstate-destructure-formstate.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-getfieldstate-for-single-field.md",
+      "relativePath": "react/react-hook-form/references/formstate-getfieldstate-for-single-field.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-subscribe-to-specific-fields.md",
+      "relativePath": "react/react-hook-form/references/formstate-subscribe-to-specific-fields.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-useformstate-isolation.md",
+      "relativePath": "react/react-hook-form/references/formstate-useformstate-isolation.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/integ-mui-controller-pattern.md",
+      "relativePath": "react/react-hook-form/references/integ-mui-controller-pattern.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/integ-shadcn-form-import.md",
+      "relativePath": "react/react-hook-form/references/integ-shadcn-form-import.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/integ-shadcn-select-wiring.md",
+      "relativePath": "react/react-hook-form/references/integ-shadcn-select-wiring.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/integ-value-transform.md",
+      "relativePath": "react/react-hook-form/references/integ-value-transform.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-avoid-watch-in-render.md",
+      "relativePath": "react/react-hook-form/references/sub-avoid-watch-in-render.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-deep-subscription.md",
+      "relativePath": "react/react-hook-form/references/sub-deep-subscription.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-useformcontext-sparingly.md",
+      "relativePath": "react/react-hook-form/references/sub-useformcontext-sparingly.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-usewatch-default-value.md",
+      "relativePath": "react/react-hook-form/references/sub-usewatch-default-value.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-usewatch-over-watch.md",
+      "relativePath": "react/react-hook-form/references/sub-usewatch-over-watch.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-usewatch-with-getvalues.md",
+      "relativePath": "react/react-hook-form/references/sub-usewatch-with-getvalues.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-watch-specific-fields.md",
+      "relativePath": "react/react-hook-form/references/sub-watch-specific-fields.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-delay-error.md",
+      "relativePath": "react/react-hook-form/references/valid-delay-error.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-dynamic-schema-factory.md",
+      "relativePath": "react/react-hook-form/references/valid-dynamic-schema-factory.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-error-message-strategy.md",
+      "relativePath": "react/react-hook-form/references/valid-error-message-strategy.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-inline-vs-resolver.md",
+      "relativePath": "react/react-hook-form/references/valid-inline-vs-resolver.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-native-validation.md",
+      "relativePath": "react/react-hook-form/references/valid-native-validation.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-resolver-caching.md",
+      "relativePath": "react/react-hook-form/references/valid-resolver-caching.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/SKILL.md",
+      "relativePath": "react/react-hook-form/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/react/react-three-fiber/SKILL.md",
+      "relativePath": "react/react-three-fiber/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/agents/analyzer.md",
+      "relativePath": "skills/skill-creator/agents/analyzer.md"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/agents/comparator.md",
+      "relativePath": "skills/skill-creator/agents/comparator.md"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/agents/grader.md",
+      "relativePath": "skills/skill-creator/agents/grader.md"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/assets/eval_review.html",
+      "relativePath": "skills/skill-creator/assets/eval_review.html"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/eval-viewer/generate_review.py",
+      "relativePath": "skills/skill-creator/eval-viewer/generate_review.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/eval-viewer/viewer.html",
+      "relativePath": "skills/skill-creator/eval-viewer/viewer.html"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/LICENSE.txt",
+      "relativePath": "skills/skill-creator/LICENSE.txt"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/references/schemas.md",
+      "relativePath": "skills/skill-creator/references/schemas.md"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/__init__.py",
+      "relativePath": "skills/skill-creator/scripts/__init__.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/aggregate_benchmark.py",
+      "relativePath": "skills/skill-creator/scripts/aggregate_benchmark.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/generate_report.py",
+      "relativePath": "skills/skill-creator/scripts/generate_report.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/improve_description.py",
+      "relativePath": "skills/skill-creator/scripts/improve_description.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/package_skill.py",
+      "relativePath": "skills/skill-creator/scripts/package_skill.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/quick_validate.py",
+      "relativePath": "skills/skill-creator/scripts/quick_validate.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/run_eval.py",
+      "relativePath": "skills/skill-creator/scripts/run_eval.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/run_loop.py",
+      "relativePath": "skills/skill-creator/scripts/run_loop.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/scripts/utils.py",
+      "relativePath": "skills/skill-creator/scripts/utils.py"
+    },
+    {
+      "sourcePath": "skills/skills/skill-creator/SKILL.md",
+      "relativePath": "skills/skill-creator/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/typescript/typescript-advanced-types/SKILL.md",
+      "relativePath": "typescript/typescript-advanced-types/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/ui/frontend-design/LICENSE.txt",
+      "relativePath": "ui/frontend-design/LICENSE.txt"
+    },
+    {
+      "sourcePath": "skills/ui/frontend-design/SKILL.md",
+      "relativePath": "ui/frontend-design/SKILL.md"
+    }
+  ]
+}

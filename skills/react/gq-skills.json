@@ -1,0 +1,502 @@
+{
+  "version": 1,
+  "folder": "skills/react",
+  "files": [
+    {
+      "sourcePath": "skills/react/react-best-practices/AGENTS.md",
+      "relativePath": "react-best-practices/AGENTS.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/metadata.json",
+      "relativePath": "react-best-practices/metadata.json"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/README.md",
+      "relativePath": "react-best-practices/README.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/_sections.md",
+      "relativePath": "react-best-practices/rules/_sections.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/_template.md",
+      "relativePath": "react-best-practices/rules/_template.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/advanced-effect-event-deps.md",
+      "relativePath": "react-best-practices/rules/advanced-effect-event-deps.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/advanced-event-handler-refs.md",
+      "relativePath": "react-best-practices/rules/advanced-event-handler-refs.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/advanced-init-once.md",
+      "relativePath": "react-best-practices/rules/advanced-init-once.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/advanced-use-latest.md",
+      "relativePath": "react-best-practices/rules/advanced-use-latest.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/async-api-routes.md",
+      "relativePath": "react-best-practices/rules/async-api-routes.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/async-cheap-condition-before-await.md",
+      "relativePath": "react-best-practices/rules/async-cheap-condition-before-await.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/async-defer-await.md",
+      "relativePath": "react-best-practices/rules/async-defer-await.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/async-dependencies.md",
+      "relativePath": "react-best-practices/rules/async-dependencies.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/async-parallel.md",
+      "relativePath": "react-best-practices/rules/async-parallel.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/async-suspense-boundaries.md",
+      "relativePath": "react-best-practices/rules/async-suspense-boundaries.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/bundle-analyzable-paths.md",
+      "relativePath": "react-best-practices/rules/bundle-analyzable-paths.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/bundle-barrel-imports.md",
+      "relativePath": "react-best-practices/rules/bundle-barrel-imports.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/bundle-conditional.md",
+      "relativePath": "react-best-practices/rules/bundle-conditional.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/bundle-defer-third-party.md",
+      "relativePath": "react-best-practices/rules/bundle-defer-third-party.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/bundle-dynamic-imports.md",
+      "relativePath": "react-best-practices/rules/bundle-dynamic-imports.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/bundle-preload.md",
+      "relativePath": "react-best-practices/rules/bundle-preload.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/client-event-listeners.md",
+      "relativePath": "react-best-practices/rules/client-event-listeners.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/client-localstorage-schema.md",
+      "relativePath": "react-best-practices/rules/client-localstorage-schema.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/client-passive-event-listeners.md",
+      "relativePath": "react-best-practices/rules/client-passive-event-listeners.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/client-swr-dedup.md",
+      "relativePath": "react-best-practices/rules/client-swr-dedup.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-batch-dom-css.md",
+      "relativePath": "react-best-practices/rules/js-batch-dom-css.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-cache-function-results.md",
+      "relativePath": "react-best-practices/rules/js-cache-function-results.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-cache-property-access.md",
+      "relativePath": "react-best-practices/rules/js-cache-property-access.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-cache-storage.md",
+      "relativePath": "react-best-practices/rules/js-cache-storage.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-combine-iterations.md",
+      "relativePath": "react-best-practices/rules/js-combine-iterations.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-early-exit.md",
+      "relativePath": "react-best-practices/rules/js-early-exit.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-flatmap-filter.md",
+      "relativePath": "react-best-practices/rules/js-flatmap-filter.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-hoist-regexp.md",
+      "relativePath": "react-best-practices/rules/js-hoist-regexp.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-index-maps.md",
+      "relativePath": "react-best-practices/rules/js-index-maps.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-length-check-first.md",
+      "relativePath": "react-best-practices/rules/js-length-check-first.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-min-max-loop.md",
+      "relativePath": "react-best-practices/rules/js-min-max-loop.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-request-idle-callback.md",
+      "relativePath": "react-best-practices/rules/js-request-idle-callback.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-set-map-lookups.md",
+      "relativePath": "react-best-practices/rules/js-set-map-lookups.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/js-tosorted-immutable.md",
+      "relativePath": "react-best-practices/rules/js-tosorted-immutable.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-activity.md",
+      "relativePath": "react-best-practices/rules/rendering-activity.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-animate-svg-wrapper.md",
+      "relativePath": "react-best-practices/rules/rendering-animate-svg-wrapper.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-conditional-render.md",
+      "relativePath": "react-best-practices/rules/rendering-conditional-render.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-content-visibility.md",
+      "relativePath": "react-best-practices/rules/rendering-content-visibility.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-hoist-jsx.md",
+      "relativePath": "react-best-practices/rules/rendering-hoist-jsx.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-hydration-no-flicker.md",
+      "relativePath": "react-best-practices/rules/rendering-hydration-no-flicker.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-hydration-suppress-warning.md",
+      "relativePath": "react-best-practices/rules/rendering-hydration-suppress-warning.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-resource-hints.md",
+      "relativePath": "react-best-practices/rules/rendering-resource-hints.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-script-defer-async.md",
+      "relativePath": "react-best-practices/rules/rendering-script-defer-async.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-svg-precision.md",
+      "relativePath": "react-best-practices/rules/rendering-svg-precision.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rendering-usetransition-loading.md",
+      "relativePath": "react-best-practices/rules/rendering-usetransition-loading.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-defer-reads.md",
+      "relativePath": "react-best-practices/rules/rerender-defer-reads.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-dependencies.md",
+      "relativePath": "react-best-practices/rules/rerender-dependencies.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-derived-state-no-effect.md",
+      "relativePath": "react-best-practices/rules/rerender-derived-state-no-effect.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-derived-state.md",
+      "relativePath": "react-best-practices/rules/rerender-derived-state.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-functional-setstate.md",
+      "relativePath": "react-best-practices/rules/rerender-functional-setstate.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-lazy-state-init.md",
+      "relativePath": "react-best-practices/rules/rerender-lazy-state-init.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-memo-with-default-value.md",
+      "relativePath": "react-best-practices/rules/rerender-memo-with-default-value.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-memo.md",
+      "relativePath": "react-best-practices/rules/rerender-memo.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-move-effect-to-event.md",
+      "relativePath": "react-best-practices/rules/rerender-move-effect-to-event.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-no-inline-components.md",
+      "relativePath": "react-best-practices/rules/rerender-no-inline-components.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-simple-expression-in-memo.md",
+      "relativePath": "react-best-practices/rules/rerender-simple-expression-in-memo.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-split-combined-hooks.md",
+      "relativePath": "react-best-practices/rules/rerender-split-combined-hooks.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-transitions.md",
+      "relativePath": "react-best-practices/rules/rerender-transitions.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-use-deferred-value.md",
+      "relativePath": "react-best-practices/rules/rerender-use-deferred-value.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/rerender-use-ref-transient-values.md",
+      "relativePath": "react-best-practices/rules/rerender-use-ref-transient-values.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-after-nonblocking.md",
+      "relativePath": "react-best-practices/rules/server-after-nonblocking.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-auth-actions.md",
+      "relativePath": "react-best-practices/rules/server-auth-actions.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-cache-lru.md",
+      "relativePath": "react-best-practices/rules/server-cache-lru.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-cache-react.md",
+      "relativePath": "react-best-practices/rules/server-cache-react.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-dedup-props.md",
+      "relativePath": "react-best-practices/rules/server-dedup-props.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-hoist-static-io.md",
+      "relativePath": "react-best-practices/rules/server-hoist-static-io.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-no-shared-module-state.md",
+      "relativePath": "react-best-practices/rules/server-no-shared-module-state.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-parallel-fetching.md",
+      "relativePath": "react-best-practices/rules/server-parallel-fetching.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-parallel-nested-fetching.md",
+      "relativePath": "react-best-practices/rules/server-parallel-nested-fetching.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/rules/server-serialization.md",
+      "relativePath": "react-best-practices/rules/server-serialization.md"
+    },
+    {
+      "sourcePath": "skills/react/react-best-practices/SKILL.md",
+      "relativePath": "react-best-practices/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/AGENTS.md",
+      "relativePath": "react-hook-form/AGENTS.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/assets/templates/_template.md",
+      "relativePath": "react-hook-form/assets/templates/_template.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/metadata.json",
+      "relativePath": "react-hook-form/metadata.json"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/README.md",
+      "relativePath": "react-hook-form/README.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/_sections.md",
+      "relativePath": "react-hook-form/references/_sections.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/adv-devtools-performance.md",
+      "relativePath": "react-hook-form/references/adv-devtools-performance.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/adv-formprovider-memo.md",
+      "relativePath": "react-hook-form/references/adv-formprovider-memo.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/adv-testing-wrapper.md",
+      "relativePath": "react-hook-form/references/adv-testing-wrapper.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-complete-default-objects.md",
+      "relativePath": "react-hook-form/references/array-complete-default-objects.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-separate-crud-operations.md",
+      "relativePath": "react-hook-form/references/array-separate-crud-operations.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-unique-fieldarray-per-name.md",
+      "relativePath": "react-hook-form/references/array-unique-fieldarray-per-name.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-use-field-id-as-key.md",
+      "relativePath": "react-hook-form/references/array-use-field-id-as-key.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-virtualization-formprovider.md",
+      "relativePath": "react-hook-form/references/array-virtualization-formprovider.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-avoid-double-registration.md",
+      "relativePath": "react-hook-form/references/ctrl-avoid-double-registration.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-controller-field-props.md",
+      "relativePath": "react-hook-form/references/ctrl-controller-field-props.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-local-state-combination.md",
+      "relativePath": "react-hook-form/references/ctrl-local-state-combination.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-single-usecontroller-per-component.md",
+      "relativePath": "react-hook-form/references/ctrl-single-usecontroller-per-component.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-usecontroller-isolation.md",
+      "relativePath": "react-hook-form/references/ctrl-usecontroller-isolation.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-async-default-values.md",
+      "relativePath": "react-hook-form/references/formcfg-async-default-values.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-default-values.md",
+      "relativePath": "react-hook-form/references/formcfg-default-values.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-revalidate-mode.md",
+      "relativePath": "react-hook-form/references/formcfg-revalidate-mode.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-should-unregister.md",
+      "relativePath": "react-hook-form/references/formcfg-should-unregister.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-useeffect-dependency.md",
+      "relativePath": "react-hook-form/references/formcfg-useeffect-dependency.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-validation-mode.md",
+      "relativePath": "react-hook-form/references/formcfg-validation-mode.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-avoid-isvalid-with-onsubmit.md",
+      "relativePath": "react-hook-form/references/formstate-avoid-isvalid-with-onsubmit.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-destructure-formstate.md",
+      "relativePath": "react-hook-form/references/formstate-destructure-formstate.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-getfieldstate-for-single-field.md",
+      "relativePath": "react-hook-form/references/formstate-getfieldstate-for-single-field.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-subscribe-to-specific-fields.md",
+      "relativePath": "react-hook-form/references/formstate-subscribe-to-specific-fields.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-useformstate-isolation.md",
+      "relativePath": "react-hook-form/references/formstate-useformstate-isolation.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/integ-mui-controller-pattern.md",
+      "relativePath": "react-hook-form/references/integ-mui-controller-pattern.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/integ-shadcn-form-import.md",
+      "relativePath": "react-hook-form/references/integ-shadcn-form-import.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/integ-shadcn-select-wiring.md",
+      "relativePath": "react-hook-form/references/integ-shadcn-select-wiring.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/integ-value-transform.md",
+      "relativePath": "react-hook-form/references/integ-value-transform.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-avoid-watch-in-render.md",
+      "relativePath": "react-hook-form/references/sub-avoid-watch-in-render.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-deep-subscription.md",
+      "relativePath": "react-hook-form/references/sub-deep-subscription.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-useformcontext-sparingly.md",
+      "relativePath": "react-hook-form/references/sub-useformcontext-sparingly.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-usewatch-default-value.md",
+      "relativePath": "react-hook-form/references/sub-usewatch-default-value.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-usewatch-over-watch.md",
+      "relativePath": "react-hook-form/references/sub-usewatch-over-watch.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-usewatch-with-getvalues.md",
+      "relativePath": "react-hook-form/references/sub-usewatch-with-getvalues.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-watch-specific-fields.md",
+      "relativePath": "react-hook-form/references/sub-watch-specific-fields.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-delay-error.md",
+      "relativePath": "react-hook-form/references/valid-delay-error.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-dynamic-schema-factory.md",
+      "relativePath": "react-hook-form/references/valid-dynamic-schema-factory.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-error-message-strategy.md",
+      "relativePath": "react-hook-form/references/valid-error-message-strategy.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-inline-vs-resolver.md",
+      "relativePath": "react-hook-form/references/valid-inline-vs-resolver.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-native-validation.md",
+      "relativePath": "react-hook-form/references/valid-native-validation.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-resolver-caching.md",
+      "relativePath": "react-hook-form/references/valid-resolver-caching.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/SKILL.md",
+      "relativePath": "react-hook-form/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/react/react-three-fiber/SKILL.md",
+      "relativePath": "react-three-fiber/SKILL.md"
+    }
+  ]
+}

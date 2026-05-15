@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "folder": "skills/flutter/flutter-animations",
+  "files": [
+    {
+      "sourcePath": "skills/flutter/flutter-animations/assets/templates/explicit_animation.dart",
+      "relativePath": "assets/templates/explicit_animation.dart"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/assets/templates/hero_transition.dart",
+      "relativePath": "assets/templates/hero_transition.dart"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/assets/templates/implicit_animation.dart",
+      "relativePath": "assets/templates/implicit_animation.dart"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/assets/templates/staggered_animation.dart",
+      "relativePath": "assets/templates/staggered_animation.dart"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/curves.md",
+      "relativePath": "references/curves.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/explicit.md",
+      "relativePath": "references/explicit.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/hero.md",
+      "relativePath": "references/hero.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/implicit.md",
+      "relativePath": "references/implicit.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/physics.md",
+      "relativePath": "references/physics.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/staggered.md",
+      "relativePath": "references/staggered.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

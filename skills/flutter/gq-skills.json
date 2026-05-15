@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "folder": "skills/flutter",
+  "files": [
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/application-factory-and-configuration.md",
+      "relativePath": "flask-api-development/references/application-factory-and-configuration.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/authentication-and-jwt.md",
+      "relativePath": "flask-api-development/references/authentication-and-jwt.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/blueprints-for-modular-api-design.md",
+      "relativePath": "flask-api-development/references/blueprints-for-modular-api-design.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/database-models-with-sqlalchemy.md",
+      "relativePath": "flask-api-development/references/database-models-with-sqlalchemy.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/flask-application-setup.md",
+      "relativePath": "flask-api-development/references/flask-application-setup.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/references/request-validation.md",
+      "relativePath": "flask-api-development/references/request-validation.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/scripts/validate-api.sh",
+      "relativePath": "flask-api-development/scripts/validate-api.sh"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/SKILL.md",
+      "relativePath": "flask-api-development/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flask-api-development/templates/api-scaffold.yaml",
+      "relativePath": "flask-api-development/templates/api-scaffold.yaml"
+    },
+    {
+      "sourcePath": "skills/flutter/fluentui-blazor/references/DATAGRID.md",
+      "relativePath": "fluentui-blazor/references/DATAGRID.md"
+    },
+    {
+      "sourcePath": "skills/flutter/fluentui-blazor/references/LAYOUT-AND-NAVIGATION.md",
+      "relativePath": "fluentui-blazor/references/LAYOUT-AND-NAVIGATION.md"
+    },
+    {
+      "sourcePath": "skills/flutter/fluentui-blazor/references/SETUP.md",
+      "relativePath": "fluentui-blazor/references/SETUP.md"
+    },
+    {
+      "sourcePath": "skills/flutter/fluentui-blazor/references/THEMING.md",
+      "relativePath": "fluentui-blazor/references/THEMING.md"
+    },
+    {
+      "sourcePath": "skills/flutter/fluentui-blazor/SKILL.md",
+      "relativePath": "fluentui-blazor/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/assets/templates/explicit_animation.dart",
+      "relativePath": "flutter-animations/assets/templates/explicit_animation.dart"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/assets/templates/hero_transition.dart",
+      "relativePath": "flutter-animations/assets/templates/hero_transition.dart"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/assets/templates/implicit_animation.dart",
+      "relativePath": "flutter-animations/assets/templates/implicit_animation.dart"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/assets/templates/staggered_animation.dart",
+      "relativePath": "flutter-animations/assets/templates/staggered_animation.dart"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/curves.md",
+      "relativePath": "flutter-animations/references/curves.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/explicit.md",
+      "relativePath": "flutter-animations/references/explicit.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/hero.md",
+      "relativePath": "flutter-animations/references/hero.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/implicit.md",
+      "relativePath": "flutter-animations/references/implicit.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/physics.md",
+      "relativePath": "flutter-animations/references/physics.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/references/staggered.md",
+      "relativePath": "flutter-animations/references/staggered.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-animations/SKILL.md",
+      "relativePath": "flutter-animations/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/bloc-state.md",
+      "relativePath": "flutter-expert/references/bloc-state.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/gorouter-navigation.md",
+      "relativePath": "flutter-expert/references/gorouter-navigation.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/performance.md",
+      "relativePath": "flutter-expert/references/performance.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/project-structure.md",
+      "relativePath": "flutter-expert/references/project-structure.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/riverpod-state.md",
+      "relativePath": "flutter-expert/references/riverpod-state.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/widget-patterns.md",
+      "relativePath": "flutter-expert/references/widget-patterns.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/SKILL.md",
+      "relativePath": "flutter-expert/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/common-errors.md",
+      "relativePath": "flutter-testing/references/common-errors.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/integration-testing.md",
+      "relativePath": "flutter-testing/references/integration-testing.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/mocking.md",
+      "relativePath": "flutter-testing/references/mocking.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/plugin-testing.md",
+      "relativePath": "flutter-testing/references/plugin-testing.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/unit-testing.md",
+      "relativePath": "flutter-testing/references/unit-testing.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/widget-testing.md",
+      "relativePath": "flutter-testing/references/widget-testing.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/scripts/verify-examples.sh",
+      "relativePath": "flutter-testing/scripts/verify-examples.sh"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/SKILL.md",
+      "relativePath": "flutter-testing/SKILL.md"
+    }
+  ]
+}

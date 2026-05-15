@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "folder": "skills/angular/angular-di",
+  "files": [
+    {
+      "sourcePath": "skills/angular/angular-di/references/di-patterns.md",
+      "relativePath": "references/di-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-di/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

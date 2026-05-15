@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "folder": "skills/node",
+  "files": [
+    {
+      "sourcePath": "skills/node/nodejs-backend-patterns/references/advanced-patterns.md",
+      "relativePath": "nodejs-backend-patterns/references/advanced-patterns.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-backend-patterns/SKILL.md",
+      "relativePath": "nodejs-backend-patterns/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-best-practices/SKILL.md",
+      "relativePath": "nodejs-best-practices/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/authentication-with-jwt.md",
+      "relativePath": "nodejs-express-server/references/authentication-with-jwt.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/basic-express-setup.md",
+      "relativePath": "nodejs-express-server/references/basic-express-setup.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/database-integration-postgresql-with-sequelize.md",
+      "relativePath": "nodejs-express-server/references/database-integration-postgresql-with-sequelize.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/environment-configuration.md",
+      "relativePath": "nodejs-express-server/references/environment-configuration.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/error-handling-middleware.md",
+      "relativePath": "nodejs-express-server/references/error-handling-middleware.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/middleware-chain-implementation.md",
+      "relativePath": "nodejs-express-server/references/middleware-chain-implementation.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/restful-routes-with-crud-operations.md",
+      "relativePath": "nodejs-express-server/references/restful-routes-with-crud-operations.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/scripts/security-checklist.sh",
+      "relativePath": "nodejs-express-server/scripts/security-checklist.sh"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/SKILL.md",
+      "relativePath": "nodejs-express-server/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "folder": "skills/angular/angular-ssr",
+  "files": [
+    {
+      "sourcePath": "skills/angular/angular-ssr/references/ssr-patterns.md",
+      "relativePath": "references/ssr-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-ssr/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

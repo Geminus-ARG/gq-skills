@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "folder": "skills/nextjs/next-best-practices",
+  "files": [
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/async-patterns.md",
+      "relativePath": "async-patterns.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/bundling.md",
+      "relativePath": "bundling.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/data-patterns.md",
+      "relativePath": "data-patterns.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/debug-tricks.md",
+      "relativePath": "debug-tricks.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/directives.md",
+      "relativePath": "directives.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/error-handling.md",
+      "relativePath": "error-handling.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/file-conventions.md",
+      "relativePath": "file-conventions.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/font.md",
+      "relativePath": "font.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/functions.md",
+      "relativePath": "functions.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/hydration-error.md",
+      "relativePath": "hydration-error.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/image.md",
+      "relativePath": "image.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/metadata.md",
+      "relativePath": "metadata.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/parallel-routes.md",
+      "relativePath": "parallel-routes.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/route-handlers.md",
+      "relativePath": "route-handlers.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/rsc-boundaries.md",
+      "relativePath": "rsc-boundaries.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/runtime-selection.md",
+      "relativePath": "runtime-selection.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/scripts.md",
+      "relativePath": "scripts.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/self-hosting.md",
+      "relativePath": "self-hosting.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/SKILL.md",
+      "relativePath": "SKILL.md"
+    },
+    {
+      "sourcePath": "skills/nextjs/next-best-practices/suspense-boundaries.md",
+      "relativePath": "suspense-boundaries.md"
+    }
+  ]
+}

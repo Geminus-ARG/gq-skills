@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "folder": "skills/node/nodejs-express-server",
+  "files": [
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/authentication-with-jwt.md",
+      "relativePath": "references/authentication-with-jwt.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/basic-express-setup.md",
+      "relativePath": "references/basic-express-setup.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/database-integration-postgresql-with-sequelize.md",
+      "relativePath": "references/database-integration-postgresql-with-sequelize.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/environment-configuration.md",
+      "relativePath": "references/environment-configuration.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/error-handling-middleware.md",
+      "relativePath": "references/error-handling-middleware.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/middleware-chain-implementation.md",
+      "relativePath": "references/middleware-chain-implementation.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/references/restful-routes-with-crud-operations.md",
+      "relativePath": "references/restful-routes-with-crud-operations.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/scripts/security-checklist.sh",
+      "relativePath": "scripts/security-checklist.sh"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-express-server/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "folder": "skills/angular",
+  "files": [
+    {
+      "sourcePath": "skills/angular/angular-component/references/component-patterns.md",
+      "relativePath": "angular-component/references/component-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-component/SKILL.md",
+      "relativePath": "angular-component/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/angular-animations.md",
+      "relativePath": "angular-developer/references/angular-animations.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/angular-aria.md",
+      "relativePath": "angular-developer/references/angular-aria.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/cli.md",
+      "relativePath": "angular-developer/references/cli.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/component-harnesses.md",
+      "relativePath": "angular-developer/references/component-harnesses.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/component-styling.md",
+      "relativePath": "angular-developer/references/component-styling.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/components.md",
+      "relativePath": "angular-developer/references/components.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/creating-services.md",
+      "relativePath": "angular-developer/references/creating-services.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/data-resolvers.md",
+      "relativePath": "angular-developer/references/data-resolvers.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/define-routes.md",
+      "relativePath": "angular-developer/references/define-routes.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/defining-providers.md",
+      "relativePath": "angular-developer/references/defining-providers.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/di-fundamentals.md",
+      "relativePath": "angular-developer/references/di-fundamentals.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/e2e-testing.md",
+      "relativePath": "angular-developer/references/e2e-testing.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/effects.md",
+      "relativePath": "angular-developer/references/effects.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/hierarchical-injectors.md",
+      "relativePath": "angular-developer/references/hierarchical-injectors.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/host-elements.md",
+      "relativePath": "angular-developer/references/host-elements.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/injection-context.md",
+      "relativePath": "angular-developer/references/injection-context.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/inputs.md",
+      "relativePath": "angular-developer/references/inputs.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/linked-signal.md",
+      "relativePath": "angular-developer/references/linked-signal.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/loading-strategies.md",
+      "relativePath": "angular-developer/references/loading-strategies.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/mcp.md",
+      "relativePath": "angular-developer/references/mcp.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/migrations.md",
+      "relativePath": "angular-developer/references/migrations.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/navigate-to-routes.md",
+      "relativePath": "angular-developer/references/navigate-to-routes.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/outputs.md",
+      "relativePath": "angular-developer/references/outputs.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/reactive-forms.md",
+      "relativePath": "angular-developer/references/reactive-forms.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/rendering-strategies.md",
+      "relativePath": "angular-developer/references/rendering-strategies.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/resource.md",
+      "relativePath": "angular-developer/references/resource.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/route-animations.md",
+      "relativePath": "angular-developer/references/route-animations.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/route-guards.md",
+      "relativePath": "angular-developer/references/route-guards.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/router-lifecycle.md",
+      "relativePath": "angular-developer/references/router-lifecycle.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/router-testing.md",
+      "relativePath": "angular-developer/references/router-testing.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/show-routes-with-outlets.md",
+      "relativePath": "angular-developer/references/show-routes-with-outlets.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/signal-forms.md",
+      "relativePath": "angular-developer/references/signal-forms.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/signals-overview.md",
+      "relativePath": "angular-developer/references/signals-overview.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/tailwind-css.md",
+      "relativePath": "angular-developer/references/tailwind-css.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/template-driven-forms.md",
+      "relativePath": "angular-developer/references/template-driven-forms.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/references/testing-fundamentals.md",
+      "relativePath": "angular-developer/references/testing-fundamentals.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-developer/SKILL.md",
+      "relativePath": "angular-developer/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-di/references/di-patterns.md",
+      "relativePath": "angular-di/references/di-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-di/SKILL.md",
+      "relativePath": "angular-di/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-directives/references/directive-patterns.md",
+      "relativePath": "angular-directives/references/directive-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-directives/SKILL.md",
+      "relativePath": "angular-directives/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-forms/references/form-patterns.md",
+      "relativePath": "angular-forms/references/form-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-forms/references/formvalueControl-patterns.md",
+      "relativePath": "angular-forms/references/formvalueControl-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-forms/SKILL.md",
+      "relativePath": "angular-forms/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-http/references/http-patterns.md",
+      "relativePath": "angular-http/references/http-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-http/SKILL.md",
+      "relativePath": "angular-http/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-new-app/SKILL.md",
+      "relativePath": "angular-new-app/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-routing/references/routing-patterns.md",
+      "relativePath": "angular-routing/references/routing-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-routing/SKILL.md",
+      "relativePath": "angular-routing/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-signals/references/signal-patterns.md",
+      "relativePath": "angular-signals/references/signal-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-signals/SKILL.md",
+      "relativePath": "angular-signals/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-ssr/references/ssr-patterns.md",
+      "relativePath": "angular-ssr/references/ssr-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-ssr/SKILL.md",
+      "relativePath": "angular-ssr/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-testing/references/testing-patterns.md",
+      "relativePath": "angular-testing/references/testing-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-testing/references/vitest-migration.md",
+      "relativePath": "angular-testing/references/vitest-migration.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-testing/SKILL.md",
+      "relativePath": "angular-testing/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-tooling/references/tooling-patterns.md",
+      "relativePath": "angular-tooling/references/tooling-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-tooling/SKILL.md",
+      "relativePath": "angular-tooling/SKILL.md"
+    }
+  ]
+}

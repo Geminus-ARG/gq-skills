@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "folder": "skills/react/react-hook-form",
+  "files": [
+    {
+      "sourcePath": "skills/react/react-hook-form/AGENTS.md",
+      "relativePath": "AGENTS.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/assets/templates/_template.md",
+      "relativePath": "assets/templates/_template.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/metadata.json",
+      "relativePath": "metadata.json"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/README.md",
+      "relativePath": "README.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/_sections.md",
+      "relativePath": "references/_sections.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/adv-devtools-performance.md",
+      "relativePath": "references/adv-devtools-performance.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/adv-formprovider-memo.md",
+      "relativePath": "references/adv-formprovider-memo.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/adv-testing-wrapper.md",
+      "relativePath": "references/adv-testing-wrapper.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-complete-default-objects.md",
+      "relativePath": "references/array-complete-default-objects.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-separate-crud-operations.md",
+      "relativePath": "references/array-separate-crud-operations.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-unique-fieldarray-per-name.md",
+      "relativePath": "references/array-unique-fieldarray-per-name.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-use-field-id-as-key.md",
+      "relativePath": "references/array-use-field-id-as-key.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/array-virtualization-formprovider.md",
+      "relativePath": "references/array-virtualization-formprovider.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-avoid-double-registration.md",
+      "relativePath": "references/ctrl-avoid-double-registration.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-controller-field-props.md",
+      "relativePath": "references/ctrl-controller-field-props.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-local-state-combination.md",
+      "relativePath": "references/ctrl-local-state-combination.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-single-usecontroller-per-component.md",
+      "relativePath": "references/ctrl-single-usecontroller-per-component.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/ctrl-usecontroller-isolation.md",
+      "relativePath": "references/ctrl-usecontroller-isolation.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-async-default-values.md",
+      "relativePath": "references/formcfg-async-default-values.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-default-values.md",
+      "relativePath": "references/formcfg-default-values.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-revalidate-mode.md",
+      "relativePath": "references/formcfg-revalidate-mode.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-should-unregister.md",
+      "relativePath": "references/formcfg-should-unregister.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-useeffect-dependency.md",
+      "relativePath": "references/formcfg-useeffect-dependency.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formcfg-validation-mode.md",
+      "relativePath": "references/formcfg-validation-mode.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-avoid-isvalid-with-onsubmit.md",
+      "relativePath": "references/formstate-avoid-isvalid-with-onsubmit.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-destructure-formstate.md",
+      "relativePath": "references/formstate-destructure-formstate.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-getfieldstate-for-single-field.md",
+      "relativePath": "references/formstate-getfieldstate-for-single-field.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-subscribe-to-specific-fields.md",
+      "relativePath": "references/formstate-subscribe-to-specific-fields.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/formstate-useformstate-isolation.md",
+      "relativePath": "references/formstate-useformstate-isolation.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/integ-mui-controller-pattern.md",
+      "relativePath": "references/integ-mui-controller-pattern.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/integ-shadcn-form-import.md",
+      "relativePath": "references/integ-shadcn-form-import.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/integ-shadcn-select-wiring.md",
+      "relativePath": "references/integ-shadcn-select-wiring.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/integ-value-transform.md",
+      "relativePath": "references/integ-value-transform.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-avoid-watch-in-render.md",
+      "relativePath": "references/sub-avoid-watch-in-render.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-deep-subscription.md",
+      "relativePath": "references/sub-deep-subscription.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-useformcontext-sparingly.md",
+      "relativePath": "references/sub-useformcontext-sparingly.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-usewatch-default-value.md",
+      "relativePath": "references/sub-usewatch-default-value.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-usewatch-over-watch.md",
+      "relativePath": "references/sub-usewatch-over-watch.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-usewatch-with-getvalues.md",
+      "relativePath": "references/sub-usewatch-with-getvalues.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/sub-watch-specific-fields.md",
+      "relativePath": "references/sub-watch-specific-fields.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-delay-error.md",
+      "relativePath": "references/valid-delay-error.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-dynamic-schema-factory.md",
+      "relativePath": "references/valid-dynamic-schema-factory.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-error-message-strategy.md",
+      "relativePath": "references/valid-error-message-strategy.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-inline-vs-resolver.md",
+      "relativePath": "references/valid-inline-vs-resolver.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-native-validation.md",
+      "relativePath": "references/valid-native-validation.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/references/valid-resolver-caching.md",
+      "relativePath": "references/valid-resolver-caching.md"
+    },
+    {
+      "sourcePath": "skills/react/react-hook-form/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

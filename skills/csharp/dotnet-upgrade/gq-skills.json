@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "folder": "skills/csharp/dotnet-upgrade",
+  "files": [
+    {
+      "sourcePath": "skills/csharp/dotnet-upgrade/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

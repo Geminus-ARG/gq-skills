@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "folder": "skills/flutter/flutter-testing",
+  "files": [
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/common-errors.md",
+      "relativePath": "references/common-errors.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/integration-testing.md",
+      "relativePath": "references/integration-testing.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/mocking.md",
+      "relativePath": "references/mocking.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/plugin-testing.md",
+      "relativePath": "references/plugin-testing.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/unit-testing.md",
+      "relativePath": "references/unit-testing.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/references/widget-testing.md",
+      "relativePath": "references/widget-testing.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/scripts/verify-examples.sh",
+      "relativePath": "scripts/verify-examples.sh"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-testing/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

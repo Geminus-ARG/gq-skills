@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "folder": "skills/node/nodejs-backend-patterns",
+  "files": [
+    {
+      "sourcePath": "skills/node/nodejs-backend-patterns/references/advanced-patterns.md",
+      "relativePath": "references/advanced-patterns.md"
+    },
+    {
+      "sourcePath": "skills/node/nodejs-backend-patterns/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

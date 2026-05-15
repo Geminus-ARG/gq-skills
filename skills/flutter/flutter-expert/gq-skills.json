@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "folder": "skills/flutter/flutter-expert",
+  "files": [
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/bloc-state.md",
+      "relativePath": "references/bloc-state.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/gorouter-navigation.md",
+      "relativePath": "references/gorouter-navigation.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/performance.md",
+      "relativePath": "references/performance.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/project-structure.md",
+      "relativePath": "references/project-structure.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/riverpod-state.md",
+      "relativePath": "references/riverpod-state.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/references/widget-patterns.md",
+      "relativePath": "references/widget-patterns.md"
+    },
+    {
+      "sourcePath": "skills/flutter/flutter-expert/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}

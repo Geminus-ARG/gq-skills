@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "folder": "skills/csharp",
+  "files": [
+    {
+      "sourcePath": "skills/csharp/csharp-async/SKILL.md",
+      "relativePath": "csharp-async/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/csharp-docs/SKILL.md",
+      "relativePath": "csharp-docs/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/csharp-mstest/SKILL.md",
+      "relativePath": "csharp-mstest/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/csharp-nunit/SKILL.md",
+      "relativePath": "csharp-nunit/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/csharp-tunit/SKILL.md",
+      "relativePath": "csharp-tunit/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/csharp-xunit/SKILL.md",
+      "relativePath": "csharp-xunit/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/dotnet-best-practices/SKILL.md",
+      "relativePath": "dotnet-best-practices/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/dotnet-design-pattern-review/SKILL.md",
+      "relativePath": "dotnet-design-pattern-review/SKILL.md"
+    },
+    {
+      "sourcePath": "skills/csharp/dotnet-upgrade/SKILL.md",
+      "relativePath": "dotnet-upgrade/SKILL.md"
+    }
+  ]
+}

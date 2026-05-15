@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "folder": "skills/angular/angular-signals",
+  "files": [
+    {
+      "sourcePath": "skills/angular/angular-signals/references/signal-patterns.md",
+      "relativePath": "references/signal-patterns.md"
+    },
+    {
+      "sourcePath": "skills/angular/angular-signals/SKILL.md",
+      "relativePath": "SKILL.md"
+    }
+  ]
+}
