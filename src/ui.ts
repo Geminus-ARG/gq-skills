@@ -59,6 +59,7 @@ export async function selectSkillFolders(
   let currentIndex = 0;
   let renderedLines = 0;
   const restoreRawMode = input.isRaw;
+  const wasPaused = typeof input.isPaused === "function" ? input.isPaused() : false;
 
   const render = (): void => {
     if (renderedLines > 0) {
@@ -86,6 +87,9 @@ export async function selectSkillFolders(
   const cleanup = (): void => {
     input.off("keypress", onKeypress);
     input.setRawMode(restoreRawMode);
+    if (typeof input.pause === "function") {
+      input.pause();
+    }
     if (renderedLines > 0) {
       moveCursor(output, 0, -renderedLines);
       cursorTo(output, 0);
@@ -137,6 +141,9 @@ export async function selectSkillFolders(
 
   return await new Promise<string[] | null>((resolve) => {
     rejectSelection = resolve;
+    if (wasPaused && typeof input.resume === "function") {
+      input.resume();
+    }
     input.setRawMode(true);
     input.on("keypress", onKeypress);
     render();

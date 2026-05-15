@@ -359,6 +359,9 @@ describe("addSkills", () => {
     input.write("\r");
 
     await expect(selectionPromise).resolves.toEqual(["node"]);
+    expect(input.resume).toHaveBeenCalled();
+    expect(input.pause).toHaveBeenCalled();
+    expect(input.isPaused()).toBe(true);
   });
 
   it("devuelve null cuando se pulsa escape en el selector interactivo", async () => {
@@ -375,6 +378,24 @@ describe("addSkills", () => {
     input.write("\u001B");
 
     await expect(selectionPromise).resolves.toBeNull();
+  });
+
+  it("pausa el input al terminar aunque el stream ya estuviera reanudado", async () => {
+    const { input, output } = createInteractiveStreams({ paused: false });
+
+    const selectionPromise = selectSkillFolders([
+      { id: "dotnet", displayName: "dotnet", fileCount: 3 },
+      { id: "node", displayName: "node", fileCount: 2 }
+    ], {
+      input: input as unknown as NodeJS.ReadStream,
+      output: output as unknown as NodeJS.WriteStream
+    });
+
+    input.write("\r");
+
+    await expect(selectionPromise).resolves.toEqual(["dotnet", "node"]);
+    expect(input.pause).toHaveBeenCalled();
+    expect(input.isPaused()).toBe(true);
   });
 
   it("usa el token guardado al ejecutar add desde main", async () => {
@@ -542,11 +563,15 @@ function jsonResponse(body: unknown): Response {
     : new Response(JSON.stringify(body), { status: 200, headers: { "Content-Type": "application/json" } });
 }
 
-function createInteractiveStreams(): {
+function createInteractiveStreams(options: { paused?: boolean } = {}): {
   input: PassThrough & {
     isTTY: boolean;
     isRaw: boolean;
+    paused: boolean;
     setRawMode: (mode: boolean) => void;
+    isPaused: () => boolean;
+    pause: () => PassThrough;
+    resume: () => PassThrough;
   };
   output: PassThrough & {
     isTTY: boolean;
@@ -555,8 +580,20 @@ function createInteractiveStreams(): {
   const input = Object.assign(new PassThrough(), {
     isTTY: true,
     isRaw: false,
+    paused: options.paused ?? true,
     setRawMode: vi.fn(function (this: PassThrough & { isRaw: boolean }, value: boolean) {
       this.isRaw = value;
+    }),
+    isPaused: vi.fn(function (this: PassThrough & { paused: boolean }) {
+      return this.paused;
+    }),
+    pause: vi.fn(function (this: PassThrough & { paused: boolean }) {
+      this.paused = true;
+      return PassThrough.prototype.pause.call(this);
+    }),
+    resume: vi.fn(function (this: PassThrough & { paused: boolean }) {
+      this.paused = false;
+      return PassThrough.prototype.resume.call(this);
     })
   });
 
